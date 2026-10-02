@@ -1,0 +1,98 @@
+{
+  "experiment": "EXP-09",
+  "model": "LightGBM Hard Negative Mining",
+  "n_hard_negatives": 377515,
+  "hard_neg_fraction": 0.4030394909626656,
+  "n_train_queries": 34998,
+  "n_eval_queries": 15000,
+  "holdout_roc_auc": 0.9984062314397864,
+  "holdout_pr_auc": 0.9841011387037932,
+  "optimal_threshold": 0.8,
+  "macro_f05": 0.75916,
+  "exp03_champion_f05": 0.77856,
+  "delta_vs_champion": -0.019400000000000084,
+  "threshold_grid": [
+    {
+      "theta": 0.4,
+      "macro_f05": 0.67832,
+      "mean_precision": 0.7271,
+      "mean_recall": 0.68487,
+      "singleton_accuracy": 0.36983,
+      "n_pred_links": 47228
+    },
+    {
+      "theta": 0.45,
+      "macro_f05": 0.68756,
+      "mean_precision": 0.73686,
+      "mean_recall": 0.68382,
+      "singleton_accuracy": 0.41119,
+      "n_pred_links": 46359
+    },
+    {
+      "theta": 0.5,
+      "macro_f05": 0.69696,
+      "mean_precision": 0.74788,
+      "mean_recall": 0.68164,
+      "singleton_accuracy": 0.45255,
+      "n_pred_links": 45264
+    },
+    {
+      "theta": 0.55,
+      "macro_f05": 0.70553,
+      "mean_precision": 0.75799,
+      "mean_recall": 0.68028,
+      "singleton_accuracy": 0.48783,
+      "n_pred_links": 44406
+    },
+    {
+      "theta": 0.6,
+      "macro_f05": 0.71807,
+      "mean_precision": 0.77395,
+      "mean_recall": 0.67726,
+      "singleton_accuracy": 0.54745,
+      "n_pred_links": 42992
+    },
+    {
+      "theta": 0.65,
+      "macro_f05": 0.72664,
+      "mean_precision": 0.78383,
+      "mean_recall": 0.67482,
+      "singleton_accuracy": 0.58637,
+      "n_pred_links": 42101
+    },
+    {
+      "theta": 0.7,
+      "macro_f05": 0.73439,
+      "mean_precision": 0.79284,
+      "mean_recall": 0.67149,
+      "singleton_accuracy": 0.62774,
+      "n_pred_links": 41239
+    },
+    {
+      "theta": 0.75,
+      "macro_f05": 0.7498,
+      "mean_precision": 0.81636,
+      "mean_recall": 0.66213,
+      "singleton_accuracy": 0.70438,
+      "n_pred_links": 38768
+    },
+    {
+      "theta": 0.8,
+      "macro_f05": 0.75916,
+      "mean_precision": 0.82918,
+      "mean_recall": 0.65505,
+      "singleton_accuracy": 0.75791,
+      "n_pred_links": 37437
+    }
+  ],
+  "final_metrics": {
+    "macro_f05": 0.75916,
+    "mean_precision": 0.82918,
+    "mean_recall": 0.65505,
+    "singleton_accuracy": 0.75791,
+    "n_entities": 15000.0,
+    "n_singletons": 822.0,
+    "eval_time_sec": 0.088
+  },
+  "elapsed_seconds": 32.355536699295044
+}

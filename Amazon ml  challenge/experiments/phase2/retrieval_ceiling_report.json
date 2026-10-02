@@ -1,0 +1,64 @@
+{
+  "holdout_oracle_ceiling_k40": 0.82854,
+  "champion_macro_f05": 0.77856,
+  "total_error_gap": 0.22143999999999997,
+  "retrieval_loss": 0.17145999999999995,
+  "retrieval_loss_percentage": 77.42955202312137,
+  "scorer_loss": 0.049980000000000024,
+  "scorer_loss_percentage": 22.570447976878626,
+  "oracle_by_k": [
+    {
+      "K": 5,
+      "oracle_macro_f05": 0.71121,
+      "mean_recall": 0.5308,
+      "link_recall": 0.0
+    },
+    {
+      "K": 10,
+      "oracle_macro_f05": 0.75973,
+      "mean_recall": 0.60391,
+      "link_recall": 0.0
+    },
+    {
+      "K": 15,
+      "oracle_macro_f05": 0.7813,
+      "mean_recall": 0.63401,
+      "link_recall": 0.0
+    },
+    {
+      "K": 20,
+      "oracle_macro_f05": 0.79285,
+      "mean_recall": 0.65067,
+      "link_recall": 0.0
+    },
+    {
+      "K": 25,
+      "oracle_macro_f05": 0.80173,
+      "mean_recall": 0.6622,
+      "link_recall": 0.0
+    },
+    {
+      "K": 30,
+      "oracle_macro_f05": 0.80918,
+      "mean_recall": 0.67165,
+      "link_recall": 0.0
+    },
+    {
+      "K": 35,
+      "oracle_macro_f05": 0.81809,
+      "mean_recall": 0.68159,
+      "link_recall": 0.0
+    },
+    {
+      "K": 40,
+      "oracle_macro_f05": 0.82879,
+      "mean_recall": 0.6924,
+      "link_recall": 0.0
+    }
+  ],
+  "holdout_queries_coverage": {
+    "full_coverage_pct": 42.73867743993196,
+    "partial_coverage_pct": 46.41718052307038,
+    "zero_coverage_pct": 10.844142036997662
+  }
+}

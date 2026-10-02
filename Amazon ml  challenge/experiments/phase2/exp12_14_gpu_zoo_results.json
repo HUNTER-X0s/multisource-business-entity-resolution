@@ -1,0 +1,54 @@
+{
+  "experiment": "EXP-12_13_14",
+  "description": "GPU Model Zoo: XGBoost GPU + CatBoost GPU + LightGBM Tri-Model Ensemble",
+  "gpu_device": "NVIDIA GeForce RTX 3050 6GB Laptop GPU",
+  "models": {
+    "lightgbm_cpu": {
+      "fit_time_sec": 4.344653129577637,
+      "roc_auc": 0.9984717359148307,
+      "pr_auc": 0.9852650196770797,
+      "f05": 0.7724889379186141,
+      "theta": 0.6
+    },
+    "xgboost_gpu": {
+      "fit_time_sec": 2.879427194595337,
+      "roc_auc": 0.9984641287517148,
+      "pr_auc": 0.9852220987455903,
+      "f05": 0.7724394454298816,
+      "theta": 0.6,
+      "vram_mb": 77.0
+    },
+    "catboost_gpu": {
+      "fit_time_sec": 5.169243097305298,
+      "roc_auc": 0.9980420280266917,
+      "pr_auc": 0.9815780030020349,
+      "f05": 0.7661992465464416,
+      "theta": 0.6,
+      "vram_mb": 81.0
+    }
+  },
+  "correlations": {
+    "r_lgb_xgb": 0.9988860080432078,
+    "r_lgb_cb": 0.9955120295527847,
+    "r_xgb_cb": 0.9958120859141484
+  },
+  "optimal_ensemble": {
+    "weights": {
+      "lightgbm": 0.5,
+      "xgboost_gpu": 0.5,
+      "catboost_gpu": 0.0
+    },
+    "optimal_theta": 0.6,
+    "macro_f05": 0.7729794419754008
+  },
+  "final_metrics": {
+    "macro_f05": 0.77298,
+    "mean_precision": 0.8503,
+    "mean_recall": 0.62471,
+    "singleton_accuracy": 0.91247,
+    "n_entities": 14943.0,
+    "n_singletons": 834.0,
+    "eval_time_sec": 0.118
+  },
+  "elapsed_seconds": 54.78355646133423
+}

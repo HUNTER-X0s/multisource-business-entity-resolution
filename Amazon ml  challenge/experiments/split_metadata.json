@@ -1,0 +1,83 @@
+{
+  "total_train_s1": 2206821,
+  "val_sample_50k": {
+    "path": "experiments/val_sample_50k.parquet",
+    "count": 49998,
+    "singletons": 2792,
+    "singletons_pct": 5.584,
+    "total_true_links": 172948,
+    "countries": [
+      {
+        "country": "US",
+        "count": 29989
+      },
+      {
+        "country": "India",
+        "count": 20009
+      }
+    ],
+    "match_bins": [
+      {
+        "match_bin": 3,
+        "count": 21998
+      },
+      {
+        "match_bin": 1,
+        "count": 2699
+      },
+      {
+        "match_bin": 0,
+        "count": 2792
+      },
+      {
+        "match_bin": 2,
+        "count": 20528
+      },
+      {
+        "match_bin": 4,
+        "count": 1981
+      }
+    ]
+  },
+  "val_split_20pct": {
+    "path": "experiments/val_split_20pct.parquet",
+    "count": 441363,
+    "singletons": 24649,
+    "singletons_pct": 5.585,
+    "total_true_links": 1528038,
+    "countries": [
+      {
+        "country": "US",
+        "count": 264726
+      },
+      {
+        "country": "India",
+        "count": 176637
+      }
+    ],
+    "match_bins": [
+      {
+        "match_bin": 1,
+        "count": 23832
+      },
+      {
+        "match_bin": 3,
+        "count": 194188
+      },
+      {
+        "match_bin": 0,
+        "count": 24649
+      },
+      {
+        "match_bin": 2,
+        "count": 181210
+      },
+      {
+        "match_bin": 4,
+        "count": 17484
+      }
+    ]
+  },
+  "random_seed": 2026,
+  "generation_time_seconds": 1.72
+}

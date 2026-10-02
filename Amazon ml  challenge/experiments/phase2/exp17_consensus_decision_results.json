@@ -1,0 +1,32 @@
+{
+  "experiment": "EXP-17",
+  "baseline_flat_theta": 0.6,
+  "baseline_f05": 0.7761746732422214,
+  "strategy1_source_specific": {
+    "best_th_s2": 0.6,
+    "best_th_s3": 0.6,
+    "best_f05": 0.7761746732422214
+  },
+  "strategy2_margin_gating": {
+    "best_th_high": 0.75,
+    "best_th_low": 0.5,
+    "best_min_gap": 0.05,
+    "best_f05": 0.7769750463109788
+  },
+  "strategy3_cardinality_capping": {
+    "best_cap_s2": 5,
+    "best_cap_s3": 5,
+    "best_f05": 0.7762018949856696
+  },
+  "champion_multi_source_decision": {
+    "th_s2": 0.62,
+    "th_s3": 0.6,
+    "cap": 5,
+    "macro_f05": 0.7762516827123261,
+    "macro_precision": 0.0,
+    "macro_recall": 0.0,
+    "gain_vs_baseline": 7.700947010469417e-05,
+    "india_slice_f05": 0.6944004882981427,
+    "us_slice_f05": 0.8308637254291378
+  }
+}

@@ -1,0 +1,219 @@
+[
+  {
+    "experiment_id": "EXP-1.1_exact_clean_name",
+    "evaluated_s1_entities": 49998,
+    "non_singleton_entities": 47206,
+    "singleton_entities": 2792,
+    "total_true_links": 172948,
+    "recovered_true_links": 37153,
+    "overall_link_recall_pct": 21.482,
+    "entity_coverage_pct": 54.22,
+    "s2_link_recall_pct": 21.053,
+    "s3_link_recall_pct": 21.885,
+    "s2_only_entity_recall_pct": 31.74,
+    "s3_only_entity_recall_pct": 37.916,
+    "both_source_entity_recall_pct": 57.499,
+    "country_recalls_pct": {
+      "Unknown": 21.48
+    },
+    "candidate_volume": {
+      "total_candidate_pairs": 484506,
+      "mean_per_s1": 9.69,
+      "median_per_s1": 1.0,
+      "p75": 4.0,
+      "p90": 15.0,
+      "p95": 60.0,
+      "p99": 175.0,
+      "max": 458,
+      "singleton_mean_cands": 8.73
+    },
+    "runtime_seconds": 0.46,
+    "eval_time_seconds": 0.078
+  },
+  {
+    "experiment_id": "EXP-1.2_sorted_suffix_name",
+    "evaluated_s1_entities": 49998,
+    "non_singleton_entities": 47206,
+    "singleton_entities": 2792,
+    "total_true_links": 172948,
+    "recovered_true_links": 70535,
+    "overall_link_recall_pct": 40.784,
+    "entity_coverage_pct": 77.378,
+    "s2_link_recall_pct": 41.601,
+    "s3_link_recall_pct": 40.016,
+    "s2_only_entity_recall_pct": 56.307,
+    "s3_only_entity_recall_pct": 58.942,
+    "both_source_entity_recall_pct": 80.743,
+    "country_recalls_pct": {
+      "Unknown": 40.78
+    },
+    "candidate_volume": {
+      "total_candidate_pairs": 1704573,
+      "mean_per_s1": 34.09,
+      "median_per_s1": 3.0,
+      "p75": 15.0,
+      "p90": 58.0,
+      "p95": 153.0,
+      "p99": 611.0,
+      "max": 1344,
+      "singleton_mean_cands": 32.34
+    },
+    "runtime_seconds": 0.56,
+    "eval_time_seconds": 0.108
+  },
+  {
+    "experiment_id": "EXP-1.3_union_exact_sorted",
+    "evaluated_s1_entities": 49998,
+    "non_singleton_entities": 47206,
+    "singleton_entities": 2792,
+    "total_true_links": 172948,
+    "recovered_true_links": 70535,
+    "overall_link_recall_pct": 40.784,
+    "entity_coverage_pct": 77.378,
+    "s2_link_recall_pct": 41.601,
+    "s3_link_recall_pct": 40.016,
+    "s2_only_entity_recall_pct": 56.307,
+    "s3_only_entity_recall_pct": 58.942,
+    "both_source_entity_recall_pct": 80.743,
+    "country_recalls_pct": {
+      "Unknown": 40.78
+    },
+    "candidate_volume": {
+      "total_candidate_pairs": 1704573,
+      "mean_per_s1": 34.09,
+      "median_per_s1": 3.0,
+      "p75": 15.0,
+      "p90": 58.0,
+      "p95": 153.0,
+      "p99": 611.0,
+      "max": 1344,
+      "singleton_mean_cands": 32.34
+    },
+    "runtime_seconds": 0.26,
+    "eval_time_seconds": 0.094
+  },
+  {
+    "experiment_id": "EXP-1.4_multi_pass_union_top30",
+    "evaluated_s1_entities": 49998,
+    "non_singleton_entities": 47206,
+    "singleton_entities": 2792,
+    "total_true_links": 172948,
+    "recovered_true_links": 65352,
+    "overall_link_recall_pct": 37.787,
+    "entity_coverage_pct": 71.319,
+    "s2_link_recall_pct": 38.461,
+    "s3_link_recall_pct": 37.154,
+    "s2_only_entity_recall_pct": 51.62,
+    "s3_only_entity_recall_pct": 53.545,
+    "both_source_entity_recall_pct": 74.516,
+    "country_recalls_pct": {
+      "Unknown": 37.79
+    },
+    "candidate_volume": {
+      "total_candidate_pairs": 478300,
+      "mean_per_s1": 9.57,
+      "median_per_s1": 3.0,
+      "p75": 15.0,
+      "p90": 30.0,
+      "p95": 30.0,
+      "p99": 30.0,
+      "max": 30,
+      "singleton_mean_cands": 8.39
+    },
+    "runtime_seconds": 1.09,
+    "eval_time_seconds": 0.096
+  },
+  {
+    "experiment_id": "EXP-1.5_budget_K15",
+    "evaluated_s1_entities": 49998,
+    "non_singleton_entities": 47206,
+    "singleton_entities": 2792,
+    "total_true_links": 172948,
+    "recovered_true_links": 62257,
+    "overall_link_recall_pct": 35.998,
+    "entity_coverage_pct": 67.665,
+    "s2_link_recall_pct": 36.816,
+    "s3_link_recall_pct": 35.229,
+    "s2_only_entity_recall_pct": 49.418,
+    "s3_only_entity_recall_pct": 51.182,
+    "both_source_entity_recall_pct": 70.627,
+    "country_recalls_pct": {
+      "Unknown": 36.0
+    },
+    "candidate_volume": {
+      "total_candidate_pairs": 301968,
+      "mean_per_s1": 6.04,
+      "median_per_s1": 3.0,
+      "p75": 15.0,
+      "p90": 15.0,
+      "p95": 15.0,
+      "p99": 15.0,
+      "max": 15,
+      "singleton_mean_cands": 4.91
+    },
+    "runtime_seconds": 0.09,
+    "eval_time_seconds": 0.08
+  },
+  {
+    "experiment_id": "EXP-1.5_budget_K20",
+    "evaluated_s1_entities": 49998,
+    "non_singleton_entities": 47206,
+    "singleton_entities": 2792,
+    "total_true_links": 172948,
+    "recovered_true_links": 63505,
+    "overall_link_recall_pct": 36.719,
+    "entity_coverage_pct": 69.076,
+    "s2_link_recall_pct": 37.503,
+    "s3_link_recall_pct": 35.982,
+    "s2_only_entity_recall_pct": 50.299,
+    "s3_only_entity_recall_pct": 52.148,
+    "both_source_entity_recall_pct": 72.121,
+    "country_recalls_pct": {
+      "Unknown": 36.72
+    },
+    "candidate_volume": {
+      "total_candidate_pairs": 363034,
+      "mean_per_s1": 7.26,
+      "median_per_s1": 3.0,
+      "p75": 15.0,
+      "p90": 20.0,
+      "p95": 20.0,
+      "p99": 20.0,
+      "max": 20,
+      "singleton_mean_cands": 6.11
+    },
+    "runtime_seconds": 0.02,
+    "eval_time_seconds": 0.091
+  },
+  {
+    "experiment_id": "EXP-1.5_budget_K25",
+    "evaluated_s1_entities": 49998,
+    "non_singleton_entities": 47206,
+    "singleton_entities": 2792,
+    "total_true_links": 172948,
+    "recovered_true_links": 64470,
+    "overall_link_recall_pct": 37.277,
+    "entity_coverage_pct": 70.269,
+    "s2_link_recall_pct": 37.99,
+    "s3_link_recall_pct": 36.607,
+    "s2_only_entity_recall_pct": 50.959,
+    "s3_only_entity_recall_pct": 52.766,
+    "both_source_entity_recall_pct": 73.409,
+    "country_recalls_pct": {
+      "Unknown": 37.28
+    },
+    "candidate_volume": {
+      "total_candidate_pairs": 421616,
+      "mean_per_s1": 8.43,
+      "median_per_s1": 3.0,
+      "p75": 15.0,
+      "p90": 25.0,
+      "p95": 25.0,
+      "p99": 25.0,
+      "max": 25,
+      "singleton_mean_cands": 7.26
+    },
+    "runtime_seconds": 0.04,
+    "eval_time_seconds": 0.095
+  }
+]

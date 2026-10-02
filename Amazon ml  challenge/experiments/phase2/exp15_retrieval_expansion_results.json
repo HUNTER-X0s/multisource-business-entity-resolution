@@ -1,0 +1,80 @@
+{
+  "experiment": "EXP-15",
+  "baseline_oracle": {
+    "macro_f05": 0.828788792041389,
+    "link_recall": 0.6930695931725143,
+    "blackout_queries": 5095,
+    "total_true_links": 172948,
+    "retrieved_true_links": 119865
+  },
+  "ch8_char_tfidf_k60": {
+    "macro_f05": 0.9921968191416423,
+    "link_recall": 0.97926544394847,
+    "blackout_queries": 127,
+    "total_true_links": 172948,
+    "retrieved_true_links": 169362
+  },
+  "ch8_new_positives": 49977,
+  "ch9_transliteration_k50": {
+    "macro_f05": 0.05584223368934758,
+    "link_recall": 0.0,
+    "blackout_queries": 47206,
+    "total_true_links": 172948,
+    "retrieved_true_links": 0
+  },
+  "ch9_new_positives": 0,
+  "ch10_postal_name_k50": {
+    "macro_f05": 0.10331021511072846,
+    "link_recall": 0.037115202257325904,
+    "blackout_queries": 44464,
+    "total_true_links": 172948,
+    "retrieved_true_links": 6419
+  },
+  "ch10_new_positives": 1036,
+  "union_new_positives": 49977,
+  "union_pairs": 4311497,
+  "union_oracle_by_k": {
+    "40": {
+      "macro_f05": 0.858641074955497,
+      "link_recall": 0.762720586534681,
+      "blackout_queries": 4495,
+      "total_true_links": 172948,
+      "retrieved_true_links": 131911
+    },
+    "50": {
+      "macro_f05": 0.9893543146176942,
+      "link_recall": 0.9720667483867983,
+      "blackout_queries": 179,
+      "total_true_links": 172948,
+      "retrieved_true_links": 168117
+    },
+    "75": {
+      "macro_f05": 0.9923067706155018,
+      "link_recall": 0.9797395749011264,
+      "blackout_queries": 127,
+      "total_true_links": 172948,
+      "retrieved_true_links": 169444
+    },
+    "100": {
+      "macro_f05": 0.9931436906904315,
+      "link_recall": 0.9820408446469459,
+      "blackout_queries": 115,
+      "total_true_links": 172948,
+      "retrieved_true_links": 169842
+    },
+    "150": {
+      "macro_f05": 0.9931436906904315,
+      "link_recall": 0.9820408446469459,
+      "blackout_queries": 115,
+      "total_true_links": 172948,
+      "retrieved_true_links": 169842
+    },
+    "200": {
+      "macro_f05": 0.9931436906904315,
+      "link_recall": 0.9820408446469459,
+      "blackout_queries": 115,
+      "total_true_links": 172948,
+      "retrieved_true_links": 169842
+    }
+  }
+}

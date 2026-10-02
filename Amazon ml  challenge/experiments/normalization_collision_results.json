@@ -1,0 +1,183 @@
+{
+  "sample_size": 100000,
+  "name_representations": [
+    {
+      "representation": "clean_name",
+      "total_records": 100000,
+      "unique_keys": 89891,
+      "compression_ratio": 1.112,
+      "keys_with_collisions": 5779,
+      "pct_keys_with_collisions": 6.43,
+      "mean_group_size": 1.11,
+      "p95_group_size": 2.0,
+      "p99_group_size": 4.0,
+      "max_group_size": 15,
+      "keys_exceeding_50_entities": 0,
+      "top_5_colliding_keys": [
+        {
+          "key": "primary care group",
+          "count": 15
+        },
+        {
+          "key": "physical therapy group",
+          "count": 13
+        },
+        {
+          "key": "internal medicine group",
+          "count": 12
+        },
+        {
+          "key": "primary care specialists llc",
+          "count": 12
+        },
+        {
+          "key": "cardiology center llc",
+          "count": 11
+        }
+      ]
+    },
+    {
+      "representation": "stripped_legal_suffix_name",
+      "total_records": 100000,
+      "unique_keys": 83813,
+      "compression_ratio": 1.193,
+      "keys_with_collisions": 7079,
+      "pct_keys_with_collisions": 8.45,
+      "mean_group_size": 1.19,
+      "p95_group_size": 2.0,
+      "p99_group_size": 5.0,
+      "max_group_size": 23,
+      "keys_exceeding_50_entities": 0,
+      "top_5_colliding_keys": [
+        {
+          "key": "meridian",
+          "count": 23
+        },
+        {
+          "key": "behavioral health associates",
+          "count": 20
+        },
+        {
+          "key": "dental physicians",
+          "count": 19
+        },
+        {
+          "key": "beacon",
+          "count": 19
+        },
+        {
+          "key": "urgent care partners",
+          "count": 19
+        }
+      ]
+    },
+    {
+      "representation": "token_sorted_name",
+      "total_records": 100000,
+      "unique_keys": 83784,
+      "compression_ratio": 1.194,
+      "keys_with_collisions": 7092,
+      "pct_keys_with_collisions": 8.46,
+      "mean_group_size": 1.19,
+      "p95_group_size": 2.0,
+      "p99_group_size": 5.0,
+      "max_group_size": 23,
+      "keys_exceeding_50_entities": 0,
+      "top_5_colliding_keys": [
+        {
+          "key": "meridian",
+          "count": 23
+        },
+        {
+          "key": "associates behavioral health",
+          "count": 20
+        },
+        {
+          "key": "dental physicians",
+          "count": 19
+        },
+        {
+          "key": "beacon",
+          "count": 19
+        },
+        {
+          "key": "care partners urgent",
+          "count": 19
+        }
+      ]
+    },
+    {
+      "representation": "accent_folded_name",
+      "total_records": 100000,
+      "unique_keys": 89891,
+      "compression_ratio": 1.112,
+      "keys_with_collisions": 5779,
+      "pct_keys_with_collisions": 6.43,
+      "mean_group_size": 1.11,
+      "p95_group_size": 2.0,
+      "p99_group_size": 4.0,
+      "max_group_size": 15,
+      "keys_exceeding_50_entities": 0,
+      "top_5_colliding_keys": [
+        {
+          "key": "primary care group",
+          "count": 15
+        },
+        {
+          "key": "physical therapy group",
+          "count": 13
+        },
+        {
+          "key": "internal medicine group",
+          "count": 12
+        },
+        {
+          "key": "primary care specialists llc",
+          "count": 12
+        },
+        {
+          "key": "cardiology center llc",
+          "count": 11
+        }
+      ]
+    }
+  ],
+  "address_representations": [
+    {
+      "representation": "clean_address",
+      "total_records": 100000,
+      "unique_keys": 99712,
+      "compression_ratio": 1.003,
+      "keys_with_collisions": 280,
+      "pct_keys_with_collisions": 0.28,
+      "mean_group_size": 1.0,
+      "p95_group_size": 1.0,
+      "p99_group_size": 1.0,
+      "max_group_size": 3,
+      "keys_exceeding_50_entities": 0,
+      "top_5_colliding_keys": [
+        {
+          "key": "2822 bering drive houston tx",
+          "count": 3
+        },
+        {
+          "key": "467 martin terrace state college pa",
+          "count": 3
+        },
+        {
+          "key": "flat no 101 104 shop no 103 ashdip chhatrapati shivaji marg opp vijay sales mira roa d east thane maharashtra",
+          "count": 3
+        },
+        {
+          "key": "f 107 kamala vihar mahavir nagar kandivlai west mumbai maharashtra",
+          "count": 3
+        },
+        {
+          "key": "200 39th street kansas city mo",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "audit_time_seconds": 2.7
+}

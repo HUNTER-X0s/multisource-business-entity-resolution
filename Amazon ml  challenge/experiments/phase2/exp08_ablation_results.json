@@ -1,0 +1,117 @@
+{
+  "experiment": "EXP-08",
+  "model": "LightGBM Ablation",
+  "full_model_f05": 0.77298,
+  "ablation_results": {
+    "FULL": {
+      "macro_f05": 0.77298,
+      "roc_auc": 0.9985281893360084,
+      "features_used": 24
+    },
+    "G1_name_exact": {
+      "macro_f05": 0.77241,
+      "delta": -0.0005699999999999594,
+      "roc_auc": 0.9985236659435895,
+      "features_removed": [
+        "exact_clean_name",
+        "exact_stripped_name",
+        "exact_sorted_name"
+      ],
+      "features_used": 21
+    },
+    "G2_name_fuzzy": {
+      "macro_f05": 0.76109,
+      "delta": -0.011889999999999956,
+      "roc_auc": 0.9975863575237296,
+      "features_removed": [
+        "name_jaro_winkler",
+        "name_token_sort",
+        "name_token_set"
+      ],
+      "features_used": 21
+    },
+    "G3_name_length": {
+      "macro_f05": 0.76966,
+      "delta": -0.0033199999999999896,
+      "roc_auc": 0.9981484215393905,
+      "features_removed": [
+        "name_len_diff",
+        "name_len_ratio"
+      ],
+      "features_used": 22
+    },
+    "G4_addr_exact": {
+      "macro_f05": 0.77298,
+      "delta": 0.0,
+      "roc_auc": 0.9985281893360084,
+      "features_removed": [
+        "exact_clean_address"
+      ],
+      "features_used": 23
+    },
+    "G5_addr_null": {
+      "macro_f05": 0.77298,
+      "delta": 0.0,
+      "roc_auc": 0.9985281893360084,
+      "features_removed": [
+        "addr_is_null_target"
+      ],
+      "features_used": 23
+    },
+    "G6_addr_fuzzy": {
+      "macro_f05": 0.77016,
+      "delta": -0.0028200000000000447,
+      "roc_auc": 0.9983504461660718,
+      "features_removed": [
+        "addr_jaro_winkler",
+        "addr_token_jaccard",
+        "addr_token_overlap"
+      ],
+      "features_used": 21
+    },
+    "G7_addr_numeric": {
+      "macro_f05": 0.75676,
+      "delta": -0.016220000000000012,
+      "roc_auc": 0.9978973932166987,
+      "features_removed": [
+        "numeric_token_jaccard",
+        "house_number_match",
+        "contradiction_house_no"
+      ],
+      "features_used": 21
+    },
+    "G8_postal": {
+      "macro_f05": 0.77287,
+      "delta": -0.0001100000000000545,
+      "roc_auc": 0.9985254531327912,
+      "features_removed": [
+        "postal_code_match",
+        "postal_both_present",
+        "contradiction_postal"
+      ],
+      "features_used": 21
+    },
+    "G9_provenance": {
+      "macro_f05": 0.7698,
+      "delta": -0.0031799999999999606,
+      "roc_auc": 0.9982060247014256,
+      "features_removed": [
+        "is_source3",
+        "channel_max_priority",
+        "channel_count"
+      ],
+      "features_used": 21
+    },
+    "G10_interactions": {
+      "macro_f05": 0.77335,
+      "delta": 0.00036999999999998145,
+      "roc_auc": 0.9985382145829443,
+      "features_removed": [
+        "name_x_addr",
+        "name_x_postal"
+      ],
+      "features_used": 22
+    }
+  },
+  "elapsed_seconds": 214.8974130153656
+}

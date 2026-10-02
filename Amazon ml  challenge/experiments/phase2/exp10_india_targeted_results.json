@@ -1,0 +1,131 @@
+{
+  "experiment": "EXP-10",
+  "model": "LightGBM India-Targeted (28 features)",
+  "target_features": [
+    "name_char2_jaccard",
+    "name_char3_jaccard",
+    "name_only_score",
+    "addr_available_score"
+  ],
+  "n_features": 28,
+  "holdout_roc_auc": 0.9984919820901246,
+  "holdout_pr_auc": 0.9854356284732375,
+  "optimal_threshold": 0.55,
+  "macro_f05": 0.77514,
+  "exp03_champion_f05": 0.77856,
+  "delta_vs_champion": -0.0034199999999999786,
+  "threshold_grid": [
+    {
+      "theta": 0.4,
+      "macro_f05": 0.77075,
+      "mean_precision": 0.84364,
+      "mean_recall": 0.64824,
+      "singleton_accuracy": 0.82728,
+      "n_pred_links": 36088
+    },
+    {
+      "theta": 0.45,
+      "macro_f05": 0.77279,
+      "mean_precision": 0.84719,
+      "mean_recall": 0.64305,
+      "singleton_accuracy": 0.85232,
+      "n_pred_links": 35491
+    },
+    {
+      "theta": 0.5,
+      "macro_f05": 0.77492,
+      "mean_precision": 0.84974,
+      "mean_recall": 0.63811,
+      "singleton_accuracy": 0.88611,
+      "n_pred_links": 34941
+    },
+    {
+      "theta": 0.55,
+      "macro_f05": 0.77514,
+      "mean_precision": 0.85146,
+      "mean_recall": 0.63352,
+      "singleton_accuracy": 0.89487,
+      "n_pred_links": 34470
+    },
+    {
+      "theta": 0.6,
+      "macro_f05": 0.77514,
+      "mean_precision": 0.85359,
+      "mean_recall": 0.62711,
+      "singleton_accuracy": 0.90613,
+      "n_pred_links": 33903
+    },
+    {
+      "theta": 0.65,
+      "macro_f05": 0.77457,
+      "mean_precision": 0.85444,
+      "mean_recall": 0.6214,
+      "singleton_accuracy": 0.9199,
+      "n_pred_links": 33425
+    },
+    {
+      "theta": 0.7,
+      "macro_f05": 0.77268,
+      "mean_precision": 0.85527,
+      "mean_recall": 0.6116,
+      "singleton_accuracy": 0.93492,
+      "n_pred_links": 32705
+    },
+    {
+      "theta": 0.75,
+      "macro_f05": 0.77098,
+      "mean_precision": 0.85481,
+      "mean_recall": 0.60609,
+      "singleton_accuracy": 0.94493,
+      "n_pred_links": 32292
+    },
+    {
+      "theta": 0.8,
+      "macro_f05": 0.76766,
+      "mean_precision": 0.85357,
+      "mean_recall": 0.59831,
+      "singleton_accuracy": 0.94994,
+      "n_pred_links": 31801
+    }
+  ],
+  "final_metrics": {
+    "macro_f05": 0.77514,
+    "mean_precision": 0.85146,
+    "mean_recall": 0.63352,
+    "singleton_accuracy": 0.89487,
+    "n_entities": 15000.0,
+    "n_singletons": 799.0,
+    "eval_time_sec": 0.086
+  },
+  "feature_importances": {
+    "name_jaro_winkler": 1026.0,
+    "name_token_set": 983.0,
+    "name_len_ratio": 895.0,
+    "name_len_diff": 848.0,
+    "name_token_sort": 831.0,
+    "addr_jaro_winkler": 650.0,
+    "name_x_addr": 560.0,
+    "addr_token_overlap": 496.0,
+    "numeric_token_jaccard": 477.0,
+    "channel_max_priority": 464.0,
+    "addr_token_jaccard": 395.0,
+    "channel_count": 383.0,
+    "contradiction_house_no": 180.0,
+    "name_only_score": 164.0,
+    "exact_sorted_name": 148.0,
+    "is_source3": 128.0,
+    "exact_stripped_name": 114.0,
+    "name_x_postal": 90.0,
+    "house_number_match": 67.0,
+    "contradiction_postal": 46.0,
+    "exact_clean_name": 42.0,
+    "exact_clean_address": 8.0,
+    "addr_is_null_target": 2.0,
+    "postal_both_present": 2.0,
+    "postal_code_match": 1.0,
+    "name_char2_jaccard": 0.0,
+    "name_char3_jaccard": 0.0,
+    "addr_available_score": 0.0
+  },
+  "elapsed_seconds": 26.524662017822266
+}
