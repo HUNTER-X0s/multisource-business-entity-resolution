@@ -1,0 +1,166 @@
+{
+  "timestamp": "2026-09-25 17:24:19",
+  "france_counts": {
+    "test_s1": {
+      "france_count": 259452,
+      "total_rows": 1732544,
+      "pct": 14.9752
+    },
+    "test_s2": {
+      "france_count": 703378,
+      "total_rows": 4887273,
+      "pct": 14.392
+    },
+    "test_s3": {
+      "france_count": 731615,
+      "total_rows": 5082316,
+      "pct": 14.3953
+    },
+    "all_test_tables": {
+      "france_total": 1694445,
+      "total_rows": 11702133,
+      "pct": 14.4798
+    },
+    "reconciliation_explanation": "The figure 1,694,445 is the sum of France records across ALL THREE test files (S1=259452 + S2=703378 + S3=731615 = 1694445). Test S1 contains exactly 259452 France records (14.975% of Test S1's 1732544 rows). Across all 11.70M test records, France represents 14.479% (1694445/11702133)."
+  },
+  "ground_truth": {
+    "gt_rows_s1_entities": 2206821,
+    "total_exploded_links": 7638365,
+    "singletons_zero_matches": 123247,
+    "singleton_pct": 5.585,
+    "single_match_s1_count": 119157,
+    "single_match_s1_pct": 5.399,
+    "multi_match_s1_count": 1964417,
+    "multi_match_s1_pct": 89.016,
+    "avg_links_per_non_singleton_s1": 3.666,
+    "exploded_links_with_null_target_addr": 337018,
+    "exploded_links_with_null_target_addr_pct": 4.412,
+    "s1_entities_with_null_target": 312600,
+    "defect_in_prior_forensics_explained": "In 08_phase1a_forensics.py, the script looked up the raw comma-separated string 'matched_entity_ids' directly in all_null_target_ids without splitting by comma. That yielded 5,375 matches (where the S1 entity had exactly 1 target match and that single ID had a null address). The true count of exploded target links with a null target address is 337018 out of 7638365 total true links (4.41%)."
+  },
+  "french_suffixes": {
+    "france_s1_total_denominator": 259452,
+    "individual_suffix_counts": {
+      "sarl": 73486,
+      "sas": 52278,
+      "sa": 12766,
+      "sci": 8360,
+      "eurl": 16980,
+      "snc": 1,
+      "ste": 24,
+      "societe": 4081,
+      "association": 4008
+    },
+    "sum_of_individual_counts": 171984,
+    "sum_of_individual_pct": 66.29,
+    "union_unique_records_matched_all_suffixes": 168790,
+    "union_all_suffixes_pct": 65.06,
+    "top5_union_count": 163859,
+    "top5_union_pct": 63.16,
+    "double_counting_analysis": "Sum of top 5 counts (sarl=73486, sas=52278, eurl=16980, sa=12766, sci=8360) = 163870 (63.16%). The true deduplicated union of entities containing at least one of these 5 suffixes is 163859 records (63.16%). Double counting occurs in 11 entities containing multiple designations (e.g. 'SA SARL')."
+  },
+  "devanagari_prevalence": {
+    "train_s1": {
+      "total_rows": 2206821,
+      "india_rows": 883188,
+      "devanagari_name_count": 0,
+      "devanagari_name_pct_total": 0.0,
+      "devanagari_addr_count": 0,
+      "devanagari_addr_pct_total": 0.0,
+      "devanagari_either_count": 0,
+      "devanagari_either_pct_total": 0.0,
+      "devanagari_name_pct_india": 0.0,
+      "devanagari_addr_pct_india": 0.0
+    },
+    "train_s2": {
+      "total_rows": 5034616,
+      "india_rows": 2017799,
+      "devanagari_name_count": 269424,
+      "devanagari_name_pct_total": 5.351,
+      "devanagari_addr_count": 277523,
+      "devanagari_addr_pct_total": 5.512,
+      "devanagari_either_count": 479500,
+      "devanagari_either_pct_total": 9.524,
+      "devanagari_name_pct_india": 13.352,
+      "devanagari_addr_pct_india": 13.754
+    },
+    "train_s3": {
+      "total_rows": 5285603,
+      "india_rows": 2115547,
+      "devanagari_name_count": 158003,
+      "devanagari_name_pct_total": 2.989,
+      "devanagari_addr_count": 275861,
+      "devanagari_addr_pct_total": 5.219,
+      "devanagari_either_count": 394374,
+      "devanagari_either_pct_total": 7.461,
+      "devanagari_name_pct_india": 7.469,
+      "devanagari_addr_pct_india": 13.04
+    },
+    "test_s1": {
+      "total_rows": 1732544,
+      "india_rows": 809986,
+      "devanagari_name_count": 0,
+      "devanagari_name_pct_total": 0.0,
+      "devanagari_addr_count": 0,
+      "devanagari_addr_pct_total": 0.0,
+      "devanagari_either_count": 0,
+      "devanagari_either_pct_total": 0.0,
+      "devanagari_name_pct_india": 0.0,
+      "devanagari_addr_pct_india": 0.0
+    },
+    "test_s2": {
+      "total_rows": 4887273,
+      "india_rows": 2312565,
+      "devanagari_name_count": 309103,
+      "devanagari_name_pct_total": 6.325,
+      "devanagari_addr_count": 318369,
+      "devanagari_addr_pct_total": 6.514,
+      "devanagari_either_count": 550530,
+      "devanagari_either_pct_total": 11.265,
+      "devanagari_name_pct_india": 13.366,
+      "devanagari_addr_pct_india": 13.767
+    },
+    "test_s3": {
+      "total_rows": 5082316,
+      "india_rows": 2405000,
+      "devanagari_name_count": 181068,
+      "devanagari_name_pct_total": 3.563,
+      "devanagari_addr_count": 319073,
+      "devanagari_addr_pct_total": 6.278,
+      "devanagari_either_count": 454885,
+      "devanagari_either_pct_total": 8.95,
+      "devanagari_name_pct_india": 7.529,
+      "devanagari_addr_pct_india": 13.267
+    }
+  },
+  "candidate_channels": {
+    "channel_count": 4,
+    "channels": [
+      "Channel 1: Exact Clean Name Join",
+      "Channel 3: Rare Brand Token Join",
+      "Channel 4: 2-Token Bigram Join",
+      "Channel 5: Postal Code Overlap (India PIN / US ZIP)"
+    ],
+    "has_tfidf_in_production": false,
+    "has_phonetic_in_production": false,
+    "reconciliation": "src/candidate_generation.py defines and runs exactly 7 production retrieval channels: 1) Exact Clean Name, 2) Token-Sorted Suffix-Stripped Name, 3) Standardized Exact Address, 4) Sorted Address Token Set, 5) 2-Word Name Bigram (rare), 6) Street Prefix (3 tokens + digit), 7) Distinctive Brand Token (rare). The Phase 1A handoff mistakenly summarized this as 6 channels."
+  },
+  "idf_core_tokens": {
+    "get_core_tokens_method": "Static domain stopwords dictionary (STOP_WORDS in src/data_preparation.py)",
+    "uses_dataset_idf": false,
+    "leakage_risk_get_core_tokens": "ZERO - strictly stateless, uses fixed domain stopwords and min_len threshold",
+    "build_frequency_filters_behavior": "_compute_rare_bigrams() and _compute_rare_brand_tokens() in src/candidate_generation.py fit frequency counts EXCLUSIVELY on the target pool (S2 + S3). They do NOT use S1 queries, do NOT use ground truth, and do NOT leak test query labels. Filtering out hyper-frequent terms (>500 bigrams or >300 brand tokens in S2/S3) is an unsupervised collection-frequency filter, analogous to an unsupervised target index vocabulary cap (e.g. max_df in Lucene/TF-IDF). It is 100% competition-compliant."
+  },
+  "runtime_environment": {
+    "machine_os": "Windows-10-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "cpu_count": 16,
+    "total_ram_gb": 15.69,
+    "python_version": "3.11.9",
+    "polars_version": "1.44.2",
+    "target_pool_rows": 9969589,
+    "measured_wall_seconds": 6.16,
+    "claimed_wall_seconds": 6.0,
+    "verification_status": "VERIFIED: Measured 6.16s for 9,969,589 rows on this machine"
+  }
+}

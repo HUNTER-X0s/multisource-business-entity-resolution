@@ -1,0 +1,242 @@
+{
+  "tables": {
+    "train_s1": {
+      "file": "train_source1.tsv",
+      "rows": 2206821,
+      "null_name": 0,
+      "null_addr": 0,
+      "null_addr_pct": 0.0,
+      "null_country": 0,
+      "unique_ids": 2206821,
+      "valid_prefix_pct": 100.0,
+      "country_counts": [
+        {
+          "country": "India",
+          "count": 883188
+        },
+        {
+          "country": "US",
+          "count": 1323633
+        }
+      ],
+      "name_len_min": 3,
+      "name_len_max": 105,
+      "name_len_median": 24.0,
+      "name_len_p95": 37.0,
+      "short_names_count": 561,
+      "addr_len_median": 41.0,
+      "addr_len_p95": 103.0,
+      "exact_duplicates": 0,
+      "unique_raw_names": 1539229,
+      "sample_size": 100000,
+      "sample_non_ascii_name_pct": 0.0,
+      "sample_devanagari_name_pct": 0.0,
+      "sample_non_ascii_addr_pct": 0.017,
+      "sample_devanagari_addr_pct": 0.0
+    },
+    "train_s2": {
+      "file": "train_source2.tsv",
+      "rows": 5034616,
+      "null_name": 0,
+      "null_addr": 168967,
+      "null_addr_pct": 3.36,
+      "null_country": 0,
+      "unique_ids": 5034616,
+      "valid_prefix_pct": 100.0,
+      "country_counts": [
+        {
+          "country": "India",
+          "count": 2017799
+        },
+        {
+          "country": "US",
+          "count": 3016817
+        }
+      ],
+      "name_len_min": 2,
+      "name_len_max": 104,
+      "name_len_median": 25.0,
+      "name_len_p95": 40.0,
+      "short_names_count": 2946,
+      "addr_len_median": 37.0,
+      "addr_len_p95": 96.0,
+      "exact_duplicates": 25873,
+      "unique_raw_names": 4402009,
+      "sample_size": 100000,
+      "sample_non_ascii_name_pct": 15.266,
+      "sample_devanagari_name_pct": 5.38,
+      "sample_non_ascii_addr_pct": 9.337,
+      "sample_devanagari_addr_pct": 5.456
+    },
+    "train_s3": {
+      "file": "train_source3.tsv",
+      "rows": 5285603,
+      "null_name": 0,
+      "null_addr": 175916,
+      "null_addr_pct": 3.33,
+      "null_country": 0,
+      "unique_ids": 5285603,
+      "valid_prefix_pct": 100.0,
+      "country_counts": [
+        {
+          "country": "US",
+          "count": 3170056
+        },
+        {
+          "country": "India",
+          "count": 2115547
+        }
+      ],
+      "name_len_min": 2,
+      "name_len_max": 123,
+      "name_len_median": 25.0,
+      "name_len_p95": 42.0,
+      "short_names_count": 17006,
+      "addr_len_median": 42.0,
+      "addr_len_p95": 91.0,
+      "exact_duplicates": 18860,
+      "unique_raw_names": 4651609,
+      "sample_size": 100000,
+      "sample_non_ascii_name_pct": 11.343,
+      "sample_devanagari_name_pct": 2.907,
+      "sample_non_ascii_addr_pct": 8.938,
+      "sample_devanagari_addr_pct": 5.149
+    },
+    "test_s1": {
+      "file": "test_source1.tsv",
+      "rows": 1732544,
+      "null_name": 0,
+      "null_addr": 0,
+      "null_addr_pct": 0.0,
+      "null_country": 0,
+      "unique_ids": 1732544,
+      "valid_prefix_pct": 100.0,
+      "country_counts": [
+        {
+          "country": "India",
+          "count": 809986
+        },
+        {
+          "country": "France",
+          "count": 259452
+        },
+        {
+          "country": "US",
+          "count": 663106
+        }
+      ],
+      "name_len_min": 3,
+      "name_len_max": 92,
+      "name_len_median": 24.0,
+      "name_len_p95": 36.0,
+      "short_names_count": 285,
+      "addr_len_median": 50.0,
+      "addr_len_p95": 105.0,
+      "exact_duplicates": 0,
+      "unique_raw_names": 1238867,
+      "sample_size": 100000,
+      "sample_non_ascii_name_pct": 2.318,
+      "sample_devanagari_name_pct": 0.0,
+      "sample_non_ascii_addr_pct": 4.266,
+      "sample_devanagari_addr_pct": 0.0
+    },
+    "test_s2": {
+      "file": "test_source2.tsv",
+      "rows": 4887273,
+      "null_name": 0,
+      "null_addr": 129408,
+      "null_addr_pct": 2.65,
+      "null_country": 0,
+      "unique_ids": 4887273,
+      "valid_prefix_pct": 100.0,
+      "country_counts": [
+        {
+          "country": "France",
+          "count": 703378
+        },
+        {
+          "country": "US",
+          "count": 1871330
+        },
+        {
+          "country": "India",
+          "count": 2312565
+        }
+      ],
+      "name_len_min": 2,
+      "name_len_max": 102,
+      "name_len_median": 25.0,
+      "name_len_p95": 42.0,
+      "short_names_count": 12559,
+      "addr_len_median": 43.0,
+      "addr_len_p95": 99.0,
+      "exact_duplicates": 22641,
+      "unique_raw_names": 4311041,
+      "sample_size": 100000,
+      "sample_non_ascii_name_pct": 18.817,
+      "sample_devanagari_name_pct": 6.222,
+      "sample_non_ascii_addr_pct": 14.661,
+      "sample_devanagari_addr_pct": 6.434
+    },
+    "test_s3": {
+      "file": "test_source3.tsv",
+      "rows": 5082316,
+      "null_name": 0,
+      "null_addr": 136098,
+      "null_addr_pct": 2.68,
+      "null_country": 0,
+      "unique_ids": 5082316,
+      "valid_prefix_pct": 100.0,
+      "country_counts": [
+        {
+          "country": "France",
+          "count": 731615
+        },
+        {
+          "country": "US",
+          "count": 1945701
+        },
+        {
+          "country": "India",
+          "count": 2405000
+        }
+      ],
+      "name_len_min": 2,
+      "name_len_max": 103,
+      "name_len_median": 25.0,
+      "name_len_p95": 42.0,
+      "short_names_count": 27142,
+      "addr_len_median": 43.0,
+      "addr_len_p95": 94.0,
+      "exact_duplicates": 16293,
+      "unique_raw_names": 4521929,
+      "sample_size": 100000,
+      "sample_non_ascii_name_pct": 14.511,
+      "sample_devanagari_name_pct": 3.596,
+      "sample_non_ascii_addr_pct": 14.218,
+      "sample_devanagari_addr_pct": 6.252
+    }
+  },
+  "collisions_sample_500k": {
+    "dataset_sample_size": 500000,
+    "raw_unique_count": 402579,
+    "raw_max_collision_cluster": 61,
+    "clean_unique_count": 399385,
+    "clean_reduction_pct": 0.79,
+    "clean_max_collision_cluster": 61,
+    "suffix_stripped_unique_count": 365952,
+    "suffix_stripped_reduction_pct": 8.37,
+    "suffix_stripped_max_collision_cluster": 118,
+    "token_sorted_unique_count": 365604,
+    "token_sorted_reduction_pct": 0.1,
+    "token_sorted_max_collision_cluster": 118,
+    "accent_folded_unique_count": 399385
+  },
+  "gt_missingness": {
+    "total_true_links": 2206821,
+    "s2_null_addr_entities": 168967,
+    "s3_null_addr_entities": 175916,
+    "true_links_with_null_target_address": 5375,
+    "true_links_with_null_target_address_pct": 0.24
+  }
+}

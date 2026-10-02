@@ -1,0 +1,39 @@
+# Amazon ML Challenge 2026 - Business Entity Resolution
+# requirements.txt
+# All packages installed exclusively within the isolated virtual environment (venv/)
+# Local system Python remains completely unmodified.
+
+# Core high-performance data processing
+pandas==3.0.3
+polars==1.44.2
+pyarrow==25.0.1
+numpy==1.26.4
+scipy==1.17.1
+
+# String matching and entity resolution
+rapidfuzz==3.14.6
+python-Levenshtein==0.27.5
+jellyfish==1.2.1
+
+# Classical Machine Learning & Feature Engineering
+scikit-learn==1.9.0
+xgboost==3.2.0
+lightgbm==4.7.0
+
+# Deep Learning with GPU Acceleration (CUDA 12.4 for NVIDIA GeForce RTX 3050 6GB)
+# torch==2.6.0+cu124
+# torchvision==0.21.0+cu124
+# torchaudio==2.6.0+cu124
+transformers==5.17.0
+accelerate==1.15.0
+sentence-transformers==6.1.0
+
+# Plotting and forensic visualization
+matplotlib==3.11.1
+plotly==6.9.0
+
+# Utilities and concurrency
+tqdm==4.70.0
+psutil==7.2.2
+regex==2026.7.19
+joblib==1.5.3

@@ -1,0 +1,230 @@
+{
+  "s1_name_collisions": {
+    "total_s1_records": 2206821,
+    "unique_clean_names": 1520684,
+    "clean_names_with_multiple_entities": 180757,
+    "entities_affected_by_name_collision": 866894,
+    "pct_entities_sharing_name": 39.28,
+    "top_30_colliding_names": [
+      {
+        "name": "primary care group",
+        "entity_count": 253
+      },
+      {
+        "name": "ear nose throat group",
+        "entity_count": 251
+      },
+      {
+        "name": "pediatric group",
+        "entity_count": 222
+      },
+      {
+        "name": "womens health group",
+        "entity_count": 220
+      },
+      {
+        "name": "physical therapy group",
+        "entity_count": 218
+      },
+      {
+        "name": "pediatric dental group",
+        "entity_count": 216
+      },
+      {
+        "name": "behavioral health group",
+        "entity_count": 215
+      },
+      {
+        "name": "chiropractic group",
+        "entity_count": 209
+      },
+      {
+        "name": "orthopedic group",
+        "entity_count": 208
+      },
+      {
+        "name": "eye group",
+        "entity_count": 207
+      },
+      {
+        "name": "dental group",
+        "entity_count": 205
+      },
+      {
+        "name": "family group",
+        "entity_count": 204
+      },
+      {
+        "name": "dermatology group",
+        "entity_count": 202
+      },
+      {
+        "name": "vision group",
+        "entity_count": 199
+      },
+      {
+        "name": "pediatric dentistry group",
+        "entity_count": 198
+      },
+      {
+        "name": "urgent care group",
+        "entity_count": 198
+      },
+      {
+        "name": "internal medicine group",
+        "entity_count": 197
+      },
+      {
+        "name": "foot ankle group",
+        "entity_count": 191
+      },
+      {
+        "name": "oncology group",
+        "entity_count": 188
+      },
+      {
+        "name": "urology group",
+        "entity_count": 185
+      },
+      {
+        "name": "meridian llc",
+        "entity_count": 184
+      },
+      {
+        "name": "meridian",
+        "entity_count": 182
+      },
+      {
+        "name": "cardiology group",
+        "entity_count": 175
+      },
+      {
+        "name": "surgical group",
+        "entity_count": 172
+      },
+      {
+        "name": "stag llc",
+        "entity_count": 135
+      },
+      {
+        "name": "meridian inc",
+        "entity_count": 135
+      },
+      {
+        "name": "family center",
+        "entity_count": 130
+      },
+      {
+        "name": "cedar llc",
+        "entity_count": 130
+      },
+      {
+        "name": "slate llc",
+        "entity_count": 129
+      },
+      {
+        "name": "amber llc",
+        "entity_count": 127
+      }
+    ]
+  },
+  "s1_address_collisions": {
+    "total_s1_records": 2206821,
+    "unique_clean_addrs": 2130172,
+    "clean_addrs_with_multiple_entities": 40511,
+    "entities_affected_by_addr_collision": 117160,
+    "pct_entities_sharing_addr": 5.31,
+    "top_20_colliding_addrs": [
+      {
+        "address": "108 norle street college twp pa",
+        "entity_count": 14
+      },
+      {
+        "address": "104 roadrunner circle elephant butte nm",
+        "entity_count": 13
+      },
+      {
+        "address": "218 phillips street storm lake ia",
+        "entity_count": 13
+      },
+      {
+        "address": "43 franklin street delaware oh",
+        "entity_count": 13
+      },
+      {
+        "address": "55 lavkush vihar singhpur kachhar bithoor road kalyanpur kanpur nagar uttar pradesh",
+        "entity_count": 13
+      },
+      {
+        "address": "1921 willow park drive fort worth tx",
+        "entity_count": 13
+      },
+      {
+        "address": "43233 clearnight terrace loudoun county va",
+        "entity_count": 12
+      },
+      {
+        "address": "4804 gardenia avenue glendale az",
+        "entity_count": 12
+      },
+      {
+        "address": "h no 154 a veer savarkar nagar mini bypass road p o izzatnagar bareilly uttar pradesh",
+        "entity_count": 12
+      },
+      {
+        "address": "no 109 ferns meadows avalahalli main road bileshivale bangalore north bangalore karnataka",
+        "entity_count": 12
+      },
+      {
+        "address": "415 northfield boulevard unit a11 murfreesboro tn",
+        "entity_count": 12
+      },
+      {
+        "address": "1948 weaver forest way morrisville nc",
+        "entity_count": 12
+      },
+      {
+        "address": "333 court avenue selmer tn",
+        "entity_count": 12
+      },
+      {
+        "address": "520 kathy lane bldg 10 dayton tn",
+        "entity_count": 12
+      },
+      {
+        "address": "4024 high creek road bismarck nd",
+        "entity_count": 12
+      },
+      {
+        "address": "3276 rosedale drive arnold mo",
+        "entity_count": 12
+      },
+      {
+        "address": "snp towers p no 112 3rd floor janardhan hills diamond hills gachibow li hyderabad rangareddy telangana",
+        "entity_count": 11
+      },
+      {
+        "address": "8 upper whitmoor drive weldon spring mo",
+        "entity_count": 11
+      },
+      {
+        "address": "21646 cottonwood meadows trail waller tx",
+        "entity_count": 11
+      },
+      {
+        "address": "2690 23rd street tuscaloosa al",
+        "entity_count": 11
+      }
+    ]
+  },
+  "exact_name_blocking_simulation_s1_s2": {
+    "sample_s1_size": 50000,
+    "s1_with_at_least_one_candidate": 26524,
+    "total_candidates_generated": 230613,
+    "true_positive_candidates": 17915,
+    "candidate_precision_pct": 7.77,
+    "false_candidate_rate_pct": 92.23,
+    "avg_candidates_when_matched": 8.69,
+    "max_candidates_for_single_s1": 224
+  }
+}

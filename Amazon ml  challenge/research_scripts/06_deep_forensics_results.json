@@ -1,0 +1,250 @@
+{
+  "multi_match_structure": {
+    "multi_s1_count": 1964417,
+    "sampled_s1_groups": 3000,
+    "intra_s2_pairs_evaluated": 4095,
+    "intra_s2_name_mean_similarity": 71.23,
+    "intra_s2_addr_mean_similarity": 84.46,
+    "intra_s2_near_identical_addr_pct": 49.57,
+    "intra_s2_distinct_addr_pct": 50.43,
+    "interpretation": "High identical address % indicates multiple duplicate records in S2 for the exact same location, whereas distinct addresses indicate multiple physical branches/locations linked to the reference S1 entity."
+  },
+  "corruption_mechanisms": {
+    "pairs_evaluated": 10000,
+    "token_len_diff_mean": -0.75,
+    "char_len_diff_mean": 0.19,
+    "exact_token_bag_pct": 27.45,
+    "pure_token_reorder_pct": 5.68,
+    "top_dropped_tokens_from_s1": [
+      {
+        "token": "limited",
+        "count": 1473
+      },
+      {
+        "token": "private",
+        "count": 900
+      },
+      {
+        "token": "llc",
+        "count": 621
+      },
+      {
+        "token": "inc",
+        "count": 438
+      },
+      {
+        "token": "ltd",
+        "count": 351
+      },
+      {
+        "token": "pvt",
+        "count": 198
+      },
+      {
+        "token": "llp",
+        "count": 119
+      },
+      {
+        "token": "c",
+        "count": 93
+      },
+      {
+        "token": "group",
+        "count": 82
+      },
+      {
+        "token": "associates",
+        "count": 75
+      },
+      {
+        "token": "care",
+        "count": 72
+      },
+      {
+        "token": "corp",
+        "count": 66
+      },
+      {
+        "token": "india",
+        "count": 57
+      },
+      {
+        "token": "l",
+        "count": 56
+      },
+      {
+        "token": "international",
+        "count": 53
+      },
+      {
+        "token": "services",
+        "count": 53
+      },
+      {
+        "token": "partners",
+        "count": 52
+      },
+      {
+        "token": "solutions",
+        "count": 52
+      },
+      {
+        "token": "pc",
+        "count": 50
+      },
+      {
+        "token": "center",
+        "count": 46
+      }
+    ],
+    "top_added_tokens_in_s2": [
+      {
+        "token": "com",
+        "count": 514
+      },
+      {
+        "token": "\u0932",
+        "count": 494
+      },
+      {
+        "token": "\u091f",
+        "count": 489
+      },
+      {
+        "token": "\u0930",
+        "count": 482
+      },
+      {
+        "token": "\u0921",
+        "count": 445
+      },
+      {
+        "token": "\u092a",
+        "count": 436
+      },
+      {
+        "token": "\u092e",
+        "count": 435
+      },
+      {
+        "token": "ltd",
+        "count": 340
+      },
+      {
+        "token": "\u0907\u0935",
+        "count": 335
+      },
+      {
+        "token": "\u0938",
+        "count": 297
+      },
+      {
+        "token": "center",
+        "count": 274
+      },
+      {
+        "token": "\u0915",
+        "count": 217
+      },
+      {
+        "token": "services",
+        "count": 195
+      },
+      {
+        "token": "inc",
+        "count": 157
+      },
+      {
+        "token": "l",
+        "count": 149
+      },
+      {
+        "token": "\u091c",
+        "count": 141
+      },
+      {
+        "token": "\u092b",
+        "count": 122
+      },
+      {
+        "token": "\u0917",
+        "count": 121
+      },
+      {
+        "token": "c",
+        "count": 119
+      },
+      {
+        "token": "\u0928",
+        "count": 115
+      }
+    ]
+  },
+  "postal_code_forensics": {
+    "s1_postal_code_coverage_pct": 6.67,
+    "s2_postal_code_coverage_pct": 7.33,
+    "pairs_with_both_postal_codes": 2466,
+    "true_match_postal_agreement_pct": 93.55,
+    "true_match_postal_disagreement_pct": 6.45,
+    "unique_postal_codes_in_s1": 32517,
+    "median_entities_per_postal_code": 2,
+    "p95_entities_per_postal_code": 17,
+    "max_entities_in_single_postal_code": 87,
+    "interpretation": "When both records have a postal code, high agreement validates postal code as a powerful blocking/feature key. Disagreement indicates either multi-branch/different city matches or data corruption."
+  },
+  "test_and_france_forensics": {
+    "test_s1_total": 1732544,
+    "test_s2_total": 4887273,
+    "test_s3_total": 5082316,
+    "test_s1_countries": {
+      "France": 259452,
+      "US": 663106,
+      "India": 809986
+    },
+    "test_s2_countries": {
+      "India": 2312565,
+      "US": 1871330,
+      "France": 703378
+    },
+    "test_s3_countries": {
+      "US": 1945701,
+      "France": 731615,
+      "India": 2405000
+    },
+    "france_s1_records": 259452,
+    "france_s2_records": 703378,
+    "france_s3_records": 731615,
+    "france_s1_names_with_french_accents_pct": 15.72,
+    "france_s1_addrs_with_french_accents_pct": 27.83,
+    "france_s1_s2_clean_name_overlap_count": 102685,
+    "france_s1_s2_clean_name_overlap_pct_of_s1": 53.22,
+    "french_address_keyword_presence_pct": {
+      "boulevard": 3.59,
+      "rue": 65.88,
+      "avenue": 11.94,
+      "chemin": 1.42,
+      "place": 1.29,
+      "all\u00e9e": 4.19,
+      "route": 1.72,
+      "cedex": 0.01
+    }
+  },
+  "macro_f05_simulation": {
+    "scores_by_threshold": {
+      "0.2": 0.8295,
+      "0.3": 0.8927,
+      "0.4": 0.9392,
+      "0.45": 0.9499,
+      "0.5": 0.9528,
+      "0.55": 0.9507,
+      "0.6": 0.9367,
+      "0.65": 0.9054,
+      "0.7": 0.8577,
+      "0.75": 0.7848,
+      "0.8": 0.6777
+    },
+    "optimal_threshold": 0.5,
+    "best_macro_f05": 0.9528,
+    "insight": "Because F0.5 penalizes false positives 4x more heavily than false negatives (beta^2 = 0.25), and singletons drop to 0.0 with ANY false positive, the optimal threshold shifts substantially higher than 0.50 (typically 0.55 - 0.65)."
+  }
+}

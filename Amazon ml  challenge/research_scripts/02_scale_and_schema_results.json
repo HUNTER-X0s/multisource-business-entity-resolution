@@ -1,0 +1,467 @@
+{
+  "file_statistics": {
+    "train_source1": {
+      "file": "student_resource/dataset/train/train_source1.tsv",
+      "file_id": "train_source1",
+      "split": "train",
+      "total_records": 2206821,
+      "unique_entity_ids": 2206821,
+      "duplicate_ids": 0,
+      "id_prefixes": {
+        "S1": 2206821
+      },
+      "id_num_min": 217,
+      "id_num_max": 999998822,
+      "id_num_count": 2206821,
+      "is_strictly_sequential": false,
+      "empty_counts": {
+        "entity_id": 0,
+        "business_name": 0,
+        "business_address": 0,
+        "country": 0
+      },
+      "whitespace_counts": {
+        "entity_id": 0,
+        "business_name": 0,
+        "business_address": 0,
+        "country": 0
+      },
+      "country_counts": {
+        "US": 1323633,
+        "India": 883188
+      },
+      "non_ascii_name_pct": 0.0,
+      "non_ascii_addr_pct": 0.03,
+      "name_char_len": {
+        "min": 3,
+        "max": 105,
+        "mean": 24.03,
+        "p25": 18,
+        "median": 24,
+        "p75": 30,
+        "p95": 37,
+        "p99": 42
+      },
+      "addr_char_len": {
+        "min": 11,
+        "max": 256,
+        "mean": 52.07,
+        "p25": 33,
+        "median": 41,
+        "p75": 70,
+        "p95": 103,
+        "p99": 124
+      },
+      "name_token_count": {
+        "min": 1,
+        "max": 16,
+        "mean": 3.55,
+        "p25": 3,
+        "median": 4,
+        "p75": 4,
+        "p95": 5,
+        "p99": 6
+      },
+      "addr_token_count": {
+        "min": 2,
+        "max": 43,
+        "mean": 8.03,
+        "p25": 5,
+        "median": 7,
+        "p75": 10,
+        "p95": 15,
+        "p99": 19
+      }
+    },
+    "train_source2": {
+      "file": "student_resource/dataset/train/train_source2.tsv",
+      "file_id": "train_source2",
+      "split": "train",
+      "total_records": 5034616,
+      "unique_entity_ids": 5034616,
+      "duplicate_ids": 0,
+      "id_prefixes": {
+        "S2": 5034616
+      },
+      "id_num_min": 576,
+      "id_num_max": 999999727,
+      "id_num_count": 5034616,
+      "is_strictly_sequential": false,
+      "empty_counts": {
+        "entity_id": 0,
+        "business_name": 0,
+        "business_address": 168967,
+        "country": 0
+      },
+      "whitespace_counts": {
+        "entity_id": 0,
+        "business_name": 0,
+        "business_address": 0,
+        "country": 0
+      },
+      "country_counts": {
+        "India": 2017799,
+        "US": 3016817
+      },
+      "non_ascii_name_pct": 15.19,
+      "non_ascii_addr_pct": 9.5,
+      "name_char_len": {
+        "min": 2,
+        "max": 104,
+        "mean": 25.1,
+        "p25": 19,
+        "median": 25,
+        "p75": 31,
+        "p95": 40,
+        "p99": 48
+      },
+      "addr_char_len": {
+        "min": 0,
+        "max": 249,
+        "mean": 46.23,
+        "p25": 30,
+        "median": 37,
+        "p75": 61,
+        "p95": 96,
+        "p99": 118
+      },
+      "name_token_count": {
+        "min": 1,
+        "max": 15,
+        "mean": 3.5,
+        "p25": 3,
+        "median": 4,
+        "p75": 4,
+        "p95": 5,
+        "p99": 6
+      },
+      "addr_token_count": {
+        "min": 0,
+        "max": 46,
+        "mean": 7.29,
+        "p25": 5,
+        "median": 6,
+        "p75": 9,
+        "p95": 15,
+        "p99": 18
+      }
+    },
+    "train_source3": {
+      "file": "student_resource/dataset/train/train_source3.tsv",
+      "file_id": "train_source3",
+      "split": "train",
+      "total_records": 5285603,
+      "unique_entity_ids": 5285603,
+      "duplicate_ids": 0,
+      "id_prefixes": {
+        "S3": 5285603
+      },
+      "id_num_min": 10,
+      "id_num_max": 999999866,
+      "id_num_count": 5285603,
+      "is_strictly_sequential": false,
+      "empty_counts": {
+        "entity_id": 0,
+        "business_name": 0,
+        "business_address": 175916,
+        "country": 0
+      },
+      "whitespace_counts": {
+        "entity_id": 0,
+        "business_name": 0,
+        "business_address": 0,
+        "country": 0
+      },
+      "country_counts": {
+        "US": 3170056,
+        "India": 2115547
+      },
+      "non_ascii_name_pct": 11.48,
+      "non_ascii_addr_pct": 9.02,
+      "name_char_len": {
+        "min": 2,
+        "max": 123,
+        "mean": 25.2,
+        "p25": 18,
+        "median": 25,
+        "p75": 31,
+        "p95": 42,
+        "p99": 50
+      },
+      "addr_char_len": {
+        "min": 0,
+        "max": 240,
+        "mean": 46.71,
+        "p25": 35,
+        "median": 42,
+        "p75": 54,
+        "p95": 91,
+        "p99": 115
+      },
+      "name_token_count": {
+        "min": 1,
+        "max": 18,
+        "mean": 3.53,
+        "p25": 3,
+        "median": 4,
+        "p75": 4,
+        "p95": 6,
+        "p99": 7
+      },
+      "addr_token_count": {
+        "min": 0,
+        "max": 43,
+        "mean": 7.17,
+        "p25": 5,
+        "median": 6,
+        "p75": 8,
+        "p95": 14,
+        "p99": 18
+      }
+    },
+    "test_source1": {
+      "file": "student_resource/dataset/test/test_source1.tsv",
+      "file_id": "test_source1",
+      "split": "test",
+      "total_records": 1732544,
+      "unique_entity_ids": 1732544,
+      "duplicate_ids": 0,
+      "id_prefixes": {
+        "S1": 1732544
+      },
+      "id_num_min": 401,
+      "id_num_max": 999998909,
+      "id_num_count": 1732544,
+      "is_strictly_sequential": false,
+      "empty_counts": {
+        "entity_id": 0,
+        "business_name": 0,
+        "business_address": 0,
+        "country": 0
+      },
+      "whitespace_counts": {
+        "entity_id": 0,
+        "business_name": 0,
+        "business_address": 0,
+        "country": 0
+      },
+      "country_counts": {
+        "US": 663106,
+        "France": 259452,
+        "India": 809986
+      },
+      "non_ascii_name_pct": 2.35,
+      "non_ascii_addr_pct": 4.26,
+      "name_char_len": {
+        "min": 3,
+        "max": 92,
+        "mean": 23.84,
+        "p25": 18,
+        "median": 24,
+        "p75": 29,
+        "p95": 36,
+        "p99": 42
+      },
+      "addr_char_len": {
+        "min": 11,
+        "max": 268,
+        "mean": 57.21,
+        "p25": 36,
+        "median": 50,
+        "p75": 74,
+        "p95": 105,
+        "p99": 126
+      },
+      "name_token_count": {
+        "min": 1,
+        "max": 14,
+        "mean": 3.52,
+        "p25": 3,
+        "median": 4,
+        "p75": 4,
+        "p95": 5,
+        "p99": 6
+      },
+      "addr_token_count": {
+        "min": 2,
+        "max": 43,
+        "mean": 8.59,
+        "p25": 6,
+        "median": 8,
+        "p75": 11,
+        "p95": 16,
+        "p99": 19
+      }
+    },
+    "test_source2": {
+      "file": "student_resource/dataset/test/test_source2.tsv",
+      "file_id": "test_source2",
+      "split": "test",
+      "total_records": 4887273,
+      "unique_entity_ids": 4887273,
+      "duplicate_ids": 0,
+      "id_prefixes": {
+        "S2": 4887273
+      },
+      "id_num_min": 208,
+      "id_num_max": 999999982,
+      "id_num_count": 4887273,
+      "is_strictly_sequential": false,
+      "empty_counts": {
+        "entity_id": 0,
+        "business_name": 0,
+        "business_address": 129408,
+        "country": 0
+      },
+      "whitespace_counts": {
+        "entity_id": 0,
+        "business_name": 0,
+        "business_address": 0,
+        "country": 0
+      },
+      "country_counts": {
+        "India": 2312565,
+        "France": 703378,
+        "US": 1871330
+      },
+      "non_ascii_name_pct": 18.99,
+      "non_ascii_addr_pct": 14.75,
+      "name_char_len": {
+        "min": 2,
+        "max": 102,
+        "mean": 25.7,
+        "p25": 19,
+        "median": 25,
+        "p75": 32,
+        "p95": 42,
+        "p99": 49
+      },
+      "addr_char_len": {
+        "min": 0,
+        "max": 269,
+        "mean": 50.41,
+        "p25": 32,
+        "median": 43,
+        "p75": 67,
+        "p95": 99,
+        "p99": 120
+      },
+      "name_token_count": {
+        "min": 1,
+        "max": 15,
+        "mean": 3.59,
+        "p25": 3,
+        "median": 4,
+        "p75": 4,
+        "p95": 5,
+        "p99": 6
+      },
+      "addr_token_count": {
+        "min": 0,
+        "max": 43,
+        "mean": 7.8,
+        "p25": 5,
+        "median": 7,
+        "p75": 10,
+        "p95": 15,
+        "p99": 19
+      }
+    },
+    "test_source3": {
+      "file": "student_resource/dataset/test/test_source3.tsv",
+      "file_id": "test_source3",
+      "split": "test",
+      "total_records": 5082316,
+      "unique_entity_ids": 5082316,
+      "duplicate_ids": 0,
+      "id_prefixes": {
+        "S3": 5082316
+      },
+      "id_num_min": 5,
+      "id_num_max": 999999995,
+      "id_num_count": 5082316,
+      "is_strictly_sequential": false,
+      "empty_counts": {
+        "entity_id": 0,
+        "business_name": 0,
+        "business_address": 136098,
+        "country": 0
+      },
+      "whitespace_counts": {
+        "entity_id": 0,
+        "business_name": 0,
+        "business_address": 0,
+        "country": 0
+      },
+      "country_counts": {
+        "India": 2405000,
+        "France": 731615,
+        "US": 1945701
+      },
+      "non_ascii_name_pct": 14.51,
+      "non_ascii_addr_pct": 14.35,
+      "name_char_len": {
+        "min": 2,
+        "max": 103,
+        "mean": 25.66,
+        "p25": 19,
+        "median": 25,
+        "p75": 32,
+        "p95": 42,
+        "p99": 50
+      },
+      "addr_char_len": {
+        "min": 0,
+        "max": 267,
+        "mean": 48.74,
+        "p25": 35,
+        "median": 43,
+        "p75": 59,
+        "p95": 94,
+        "p99": 117
+      },
+      "name_token_count": {
+        "min": 1,
+        "max": 16,
+        "mean": 3.6,
+        "p25": 3,
+        "median": 4,
+        "p75": 4,
+        "p95": 6,
+        "p99": 7
+      },
+      "addr_token_count": {
+        "min": 0,
+        "max": 43,
+        "mean": 7.51,
+        "p25": 5,
+        "median": 7,
+        "p75": 9,
+        "p95": 15,
+        "p99": 19
+      }
+    }
+  },
+  "cartesian_analysis": {
+    "train": {
+      "S1_count": 2206821,
+      "S2_count": 5034616,
+      "S3_count": 5285603,
+      "S1_x_S2_pairs": 11110496315736,
+      "S1_x_S3_pairs": 11664379698063,
+      "total_train_pairs": 22774876013799
+    },
+    "test": {
+      "S1_count": 1732544,
+      "S2_count": 4887273,
+      "S3_count": 5082316,
+      "S1_x_S2_pairs": 8467415512512,
+      "S1_x_S3_pairs": 8805336091904,
+      "total_test_pairs": 17272751604416
+    },
+    "theoretical_ram_gigabytes": {
+      "train_at_64_bytes_per_pair": 1357488.39,
+      "test_at_64_bytes_per_pair": 1029536.22
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "phonetics": {
+    "sample_size": 100000,
+    "raw": {
+      "unique": 90483,
+      "max_cluster": 16
+    },
+    "soundex": {
+      "unique": 5529,
+      "compression_ratio": 16.37,
+      "max_cluster": 768,
+      "top_5": [
+        [
+          "I536",
+          768
+        ],
+        [
+          "P336",
+          719
+        ],
+        [
+          "P656",
+          575
+        ],
+        [
+          "B623",
+          468
+        ],
+        [
+          "S416",
+          403
+        ]
+      ],
+      "evaluation": "Catastrophic ambiguity: collapses 100k distinct names into very few broad bins"
+    },
+    "metaphone": {
+      "unique": 88564,
+      "compression_ratio": 1.02,
+      "max_cluster": 19,
+      "top_5": [
+        [
+          "A KR Y",
+          19
+        ],
+        [
+          "TNTL KRP",
+          16
+        ],
+        [
+          "FML KRP",
+          15
+        ],
+        [
+          "BHFRL HL0 KRP",
+          13
+        ],
+        [
+          "ER NS 0RT KRP",
+          13
+        ]
+      ],
+      "evaluation": "Severe ambiguity: max collision cluster is tens of thousands of names"
+    },
+    "nysiis": {
+      "unique": 90051,
+      "compression_ratio": 1.0,
+      "max_cluster": 16,
+      "top_5": [
+        [
+          "DANTAL GRAP",
+          16
+        ],
+        [
+          "FANALY GRAP",
+          15
+        ],
+        [
+          "BAHAVARAL ALT GRAP",
+          13
+        ],
+        [
+          "EAR NASA & TRAT GRAP",
+          13
+        ],
+        [
+          "PRANARY CARA GRAP",
+          13
+        ]
+      ],
+      "evaluation": "Severe ambiguity: unacceptable false-positive explosion for blocking"
+    }
+  },
+  "france_audit": {
+    "france_s1_records": 259452,
+    "suffix_distribution": {
+      "sarl": 73486,
+      "sa": 12766,
+      "sas": 52278,
+      "sci": 8360,
+      "snc": 1,
+      "eurl": 16980,
+      "association": 4005,
+      "ste": 24,
+      "societe": 4081
+    },
+    "postal_code_coverage_count": 1005,
+    "postal_code_coverage_pct": 0.39
+  }
+}

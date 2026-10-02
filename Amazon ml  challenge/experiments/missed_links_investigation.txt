@@ -1,0 +1,183 @@
+SAMPLE OF 30 MISSED TRUE LINKS OUT OF 38,547 TOTAL MISSED
+================================================================================
+
+Country: US
+  S1:  Name: 'Acosta, Foster and Dudley LLC'
+       Addr: '406 Lekites Avenue, Bethany Beach, DE'
+  Tgt: Name: 'Ac0sta Foster & Dudley LLC Cénter'
+       Addr: '724-A LEKITES AVE, BETHANY BEACH, DE'
+
+Country: US
+  S1:  Name: 'Womens Health Clinic Inc'
+       Addr: '93 Major Avenue, Staten Island, NY'
+  Tgt: Name: 'Inc Womens Héalth Clinic'
+       Addr: 'NY, STATENN ISLAND, 93 MAJOR AVENUE'
+
+Country: US
+  S1:  Name: 'Mountain Committee VI'
+       Addr: '485 100, Unit 33, Wellington, UT'
+  Tgt: Name: 'MOUNTAIN CMCMMLTEE VI'
+       Addr: '485 100, WELLNGTON, UT'
+
+Country: India
+  S1:  Name: 'White Projects Private Limited'
+       Addr: 'Village Jatpura Bonda Site Sherpur Hasan, Bijnor, Bijnore, Uttar Pradesh'
+  Tgt: Name: 'व्हाइट प्रोजेक्ट्स प्राइवेट लिमिटेड'
+       Addr: 'HN 710 VILLAGE JATPURA BONDA SITE SHERPUR HASAN, BIJNOR, BIJNORE, Uttar Pradesh'
+
+Country: India
+  S1:  Name: 'Green Estate Private Limited'
+       Addr: 'Plot No. -D-6/433, 434, 1St Floor, Rajawat Manor, Chitakoot Yojna, Jaipur, Rajasthan'
+  Tgt: Name: 'ग्रीन एस्टेट प्राइवेट लिमिटेड'
+       Addr: 'PLOT NO. -D-6/433, JAIPUR, Rajasthan'
+
+Country: India
+  S1:  Name: 'Krishna Estate Private Limited'
+       Addr: 'Flat No Td-06 Sowparnika, Anandasompura Gate, Anekal, Bangalore, Karnataka'
+  Tgt: Name: 'ಕೃಷ್ಣ ಎಸ್ಟೇಟ್ ಪ್ರೈವೇಟ್ ಲಿಮಿಟೆಡ್'
+       Addr: 'FLAT NO TD-06 SOWPARNIKA, ANEKAL, BANGALORE, Karnataka'
+
+Country: India
+  S1:  Name: 'Pioneer Systems Private Limited'
+       Addr: '2Nd Floor, Suite 263, Valamkottil Towers, Judgemukku, Thrikkak, Ara P.O, Kerala, Ernakulam, No. 6/858-M, Kakkanad'
+  Tgt: Name: 'പയനിയർ സിസ്റ്റംസ് പ്രൈവറ്റ് ലിമിറ്റഡ്'
+       Addr: 'NO 5-6/858-M, 2ND FLOOR, SUITE 263, VALAMKOTTIL TOWERS, JUDGEMUKKU, THRIKKAK, ARA P.O, KOCHI REGION, null, Kerala'
+
+Country: US
+  S1:  Name: 'Board of Veterans Affairs'
+       Addr: '430 West Street, Dadeville, AL'
+  Tgt: Name: 'BOARDVETERANSAFFAIRS.COM'
+       Addr: '43 WEST ST, N/A, DADEVILLE, AL'
+
+Country: India
+  S1:  Name: 'White Projects Private Limited'
+       Addr: 'Village Jatpura Bonda Site Sherpur Hasan, Bijnor, Bijnore, Uttar Pradesh'
+  Tgt: Name: 'व्हाइट प्रोजेक्ट्स प्राइवेट लिमिटेड'
+       Addr: 'HN 710 VILLAGE JATPURA BONDA SITE SHERPUR HASAN, BIJNOR, BIJNORE, Uttar Pradesh'
+
+Country: US
+  S1:  Name: 'Board of Veterans Affairs'
+       Addr: '430 West Street, Dadeville, AL'
+  Tgt: Name: '-- Nexs0lavi'
+       Addr: 'AL, 43 WEST STREET, DADEVILLE, N/A'
+
+Country: India
+  S1:  Name: 'ZOG Security Pvt. Ltd.'
+       Addr: 'Oak-B 2503, Dosti West County, Thane, Thane, Maharashtra'
+  Tgt: Name: 'ZOG PVT LTD PARTNERS'
+       Addr: 'OAK-B 2501, DOSTI WEST COUNTY, THANE, THANE, Maharashtra'
+
+Country: India
+  S1:  Name: 'Hitech Advisors'
+       Addr: '# 862, Sri Venkatadri, E & F Block, Panchamantra Road, Kuvempunagar, Mysore, Karnataka'
+  Tgt: Name: 'Mr Hitech Adimdrs'
+       Addr: 'Karnataka, # 862, SRI VENKATADRI, E & F BLOCK, PANCHAMANTRA ROAD, KUVEMPUNAGAR, MYSORE'
+
+Country: US
+  S1:  Name: 'Valley Holdings'
+       Addr: '719 Mountain Road, Addison, VT'
+  Tgt: Name: 'Valley Hóldings'
+       Addr: 'MOUNTAIN RD, ADDISON, VT'
+
+Country: India
+  S1:  Name: 'Great Construction Private Limited'
+       Addr: 'Flt-1, Fl-Ground, Bl-87, R R Plot, Anandapur, Kolkata, Kolkata, Howrah, West Bengal'
+  Tgt: Name: 'গ্রেট কনস্ট্রাকশন প্রাইভেট লিমিটেড'
+       Addr: 'DOOR NO 476 FLT-1, FL-GROUND, BL-87, R R PLOT, ANANDAPUR, KOLKATA, HOWRAH, KOLKATA, পশ্চিমবঙ্গ'
+
+Country: US
+  S1:  Name: 'Cruz Complete Calamos'
+       Addr: '1 Premium Outlets Boulevard, Unit 387, Wrentham, MA'
+  Tgt: Name: 'Cruz Comit Calamos'
+       Addr: 'WRENTHAM, 1 PREMIUM OUTLETS BOULEVARD, null, MA'
+
+Country: India
+  S1:  Name: 'New International Limited'
+       Addr: 'Indore, 1235, Indore, Scheme No. 114, Part-1, Vijay Nagar, Madhya Pradesh'
+  Tgt: Name: 'New Intcnrnatoinal Limited'
+       Addr: 'DOOR NO 578 1235, SCHEME NO. 114, PART-1, VIJAY NAGAR, INDORE, मध्य प्रदेश'
+
+Country: India
+  S1:  Name: 'Infrastructure Foundation Private Limited'
+       Addr: 'F-2/11 G/F Kh No-456, Dayal Pur, Extn, Delhi, North East, Delhi'
+  Tgt: Name: 'infrastructurefoundation.com'
+       Addr: 'PLOT 833 F-2/11 G/F KH NO-456, DAYAL PUR, EXTN, DELHI, दिल्ली'
+
+Country: India
+  S1:  Name: 'Green Estate Private Limited'
+       Addr: 'Plot No. -D-6/433, 434, 1St Floor, Rajawat Manor, Chitakoot Yojna, Jaipur, Rajasthan'
+  Tgt: Name: 'ग्रीन एस्टेट प्राइवेट लिमिटेड'
+       Addr: 'Plot No. -D-6/433, N/A, Jaipur, RJ'
+
+Country: US
+  S1:  Name: 'Delta Green Starling L.L.C.'
+       Addr: '7004 Fm 1015, Mercedes, TX'
+  Tgt: Name: 'Delta'
+       Addr: 'Mercedes, 7004 Fm 1015, TX'
+
+Country: US
+  S1:  Name: 'Beacon Center'
+       Addr: '450 Ohio Street, Unit CONDO 314, Indianapolis, IN'
+  Tgt: Name: 'Beacon Service'
+       Addr: 'Ohio Street, # Condo 314, Indianapolis, Indiana'
+
+Country: US
+  S1:  Name: 'Board of Veterans Affairs'
+       Addr: '430 West Street, Dadeville, AL'
+  Tgt: Name: '8oard of'
+       Addr: 'Alabama, 430 West St, Dadeville'
+
+Country: India
+  S1:  Name: 'Pioneer Systems Private Limited'
+       Addr: '2Nd Floor, Suite 263, Valamkottil Towers, Judgemukku, Thrikkak, Ara P.O, Kerala, Ernakulam, No. 6/858-M, Kakkanad'
+  Tgt: Name: 'പയനിയർ സിസ്റ്റംസ് പ്രൈവറ്റ് ലിമിറ്റഡ്'
+       Addr: '006/858-M, Kakkanad, Ernakulam, KL'
+
+Country: India
+  S1:  Name: 'Infrastructure Foundation Private Limited'
+       Addr: 'F-2/11 G/F Kh No-456, Dayal Pur, Extn, Delhi, North East, Delhi'
+  Tgt: Name: 'Infrastructure Private Limited Services'
+       Addr: 'F-2/11 G/f Kh No-456, Delhi, Ghaziabad, DL'
+
+Country: US
+  S1:  Name: 'Beacon Center'
+       Addr: '450 Ohio Street, Unit CONDO 314, Indianapolis, IN'
+  Tgt: Name: 'Beacon Ctenr'
+       Addr: 'Unit Condo 314, Indianapolis, Indiana, 00450 Ohio Street'
+
+Country: India
+  S1:  Name: 'Great Construction Private Limited'
+       Addr: 'Flt-1, Fl-Ground, Bl-87, R R Plot, Anandapur, Kolkata, Kolkata, Howrah, West Bengal'
+  Tgt: Name: 'গ্রেট কনস্ট্রাকশন প্রাইভেট লিমিটেড'
+       Addr: 'Howrah, WB, Flt-1, Fl-ground, Bl-87, R R Plot, Anandapur, Kolkata, Kolkata'
+
+Country: US
+  S1:  Name: 'Womens Health Clinic Inc'
+       Addr: '93 Major Avenue, Staten Island, NY'
+  Tgt: Name: 'Womens Health Clínic Inc Enterprises'
+       Addr: 'None'
+
+Country: India
+  S1:  Name: 'Krishna Estate Private Limited'
+       Addr: 'Flat No Td-06 Sowparnika, Anandasompura Gate, Anekal, Bangalore, Karnataka'
+  Tgt: Name: 'ಕೃಷ್ಣ ಎಸ್ಟೇಟ್ ಪ್ರೈವೇಟ್ ಲಿಮಿಟೆಡ್'
+       Addr: 'Flat No Td-06 Sowparnika, Anandasompura Gate, Bangalore, Bengaluru, KA'
+
+Country: India
+  S1:  Name: 'Pioneer Systems Private Limited'
+       Addr: '2Nd Floor, Suite 263, Valamkottil Towers, Judgemukku, Thrikkak, Ara P.O, Kerala, Ernakulam, No. 6/858-M, Kakkanad'
+  Tgt: Name: 'പയനിയർ Systems പ്രൈവറ്റ് ലിമിറ്റഡ്'
+       Addr: 'No 006/858-M, 2Nd Floor, Suite 263, Valamkottil Towers, Judgemukku, Thrikkak, Ara P.o, Kakkanad, Ernakulam, KL'
+
+Country: India
+  S1:  Name: 'Pioneer Systems Private Limited'
+       Addr: '2Nd Floor, Suite 263, Valamkottil Towers, Judgemukku, Thrikkak, Ara P.O, Kerala, Ernakulam, No. 6/858-M, Kakkanad'
+  Tgt: Name: 'പയനിയർ സിസ്റ്റംസ് പ്രൈവറ്റ് ലിമിറ്റഡ്'
+       Addr: 'Door No 006/858-M, Kakkanad, Ernakulam, KL'
+
+Country: India
+  S1:  Name: 'Infrastructure Foundation Private Limited'
+       Addr: 'F-2/11 G/F Kh No-456, Dayal Pur, Extn, Delhi, North East, Delhi'
+  Tgt: Name: 'Dr Infrastructure Private  Foundation Limited'
+       Addr: 'DL, F-2/11 G/f Kh No-456, North East, Ghaziabad, Dayal Pur, Extn'
+

@@ -1,0 +1,192 @@
+{
+  "S1_S2": {
+    "pair_type": "S1_S2",
+    "total_true_pairs": 3693619,
+    "country_agreement_rate": 1.0,
+    "name_exact_raw_pct": 4.73,
+    "name_exact_lower_pct": 11.03,
+    "addr_exact_raw_pct": 0.0,
+    "addr_exact_lower_pct": 10.37,
+    "s1_name_empty_pct": 0.0,
+    "s23_name_empty_pct": 0.0,
+    "s1_addr_empty_pct": 0.0,
+    "s23_addr_empty_pct": 4.4721,
+    "sample_size_evaluated": 100000,
+    "name_levenshtein_ratio": {
+      "min": 0.0,
+      "p25": 0.7179,
+      "median": 0.8667,
+      "mean": 0.7759,
+      "p75": 0.9474,
+      "p95": 1.0,
+      "p99": 1.0,
+      "max": 1.0
+    },
+    "name_token_sort_ratio": {
+      "min": 0.0,
+      "p25": 0.6923,
+      "median": 0.8718,
+      "mean": 0.7711,
+      "p75": 0.9583,
+      "p95": 1.0,
+      "p99": 1.0,
+      "max": 1.0
+    },
+    "name_token_jaccard": {
+      "min": 0.0,
+      "p25": 0.3333,
+      "median": 0.6,
+      "mean": 0.5538,
+      "p75": 0.75,
+      "p95": 1.0,
+      "p99": 1.0,
+      "max": 1.0
+    },
+    "name_char_3gram_jaccard": {
+      "min": 0.0,
+      "p25": 0.4483,
+      "median": 0.6667,
+      "mean": 0.6056,
+      "p75": 0.8108,
+      "p95": 1.0,
+      "p99": 1.0,
+      "max": 1.0
+    },
+    "addr_levenshtein_ratio": {
+      "min": 0.0,
+      "p25": 0.7045,
+      "median": 0.8605,
+      "mean": 0.7862,
+      "p75": 0.9459,
+      "p95": 1.0,
+      "p99": 1.0,
+      "max": 1.0
+    },
+    "addr_token_sort_ratio": {
+      "min": 0.0,
+      "p25": 0.8088,
+      "median": 0.9041,
+      "mean": 0.8382,
+      "p75": 0.9593,
+      "p95": 1.0,
+      "p99": 1.0,
+      "max": 1.0
+    },
+    "addr_token_jaccard": {
+      "min": 0.0,
+      "p25": 0.4167,
+      "median": 0.6154,
+      "mean": 0.5848,
+      "p75": 0.7692,
+      "p95": 1.0,
+      "p99": 1.0,
+      "max": 1.0
+    },
+    "addr_numeric_overlap": {
+      "min": 0.0,
+      "p25": 0.5,
+      "median": 1.0,
+      "mean": 0.794,
+      "p75": 1.0,
+      "p95": 1.0,
+      "p99": 1.0,
+      "max": 1.0
+    },
+    "addr_both_have_numbers_pct": 83.51
+  },
+  "S1_S3": {
+    "pair_type": "S1_S3",
+    "total_true_pairs": 3944746,
+    "country_agreement_rate": 1.0,
+    "name_exact_raw_pct": 4.55,
+    "name_exact_lower_pct": 10.49,
+    "addr_exact_raw_pct": 4.31,
+    "addr_exact_lower_pct": 4.32,
+    "s1_name_empty_pct": 0.0,
+    "s23_name_empty_pct": 0.0,
+    "s1_addr_empty_pct": 0.0,
+    "s23_addr_empty_pct": 4.356,
+    "sample_size_evaluated": 100000,
+    "name_levenshtein_ratio": {
+      "min": 0.0,
+      "p25": 0.7179,
+      "median": 0.8636,
+      "mean": 0.7922,
+      "p75": 0.95,
+      "p95": 1.0,
+      "p99": 1.0,
+      "max": 1.0
+    },
+    "name_token_sort_ratio": {
+      "min": 0.0,
+      "p25": 0.6977,
+      "median": 0.8636,
+      "mean": 0.7858,
+      "p75": 0.96,
+      "p95": 1.0,
+      "p99": 1.0,
+      "max": 1.0
+    },
+    "name_token_jaccard": {
+      "min": 0.0,
+      "p25": 0.4,
+      "median": 0.6,
+      "mean": 0.5692,
+      "p75": 0.75,
+      "p95": 1.0,
+      "p99": 1.0,
+      "max": 1.0
+    },
+    "name_char_3gram_jaccard": {
+      "min": 0.0,
+      "p25": 0.4634,
+      "median": 0.6667,
+      "mean": 0.617,
+      "p75": 0.8095,
+      "p95": 1.0,
+      "p99": 1.0,
+      "max": 1.0
+    },
+    "addr_levenshtein_ratio": {
+      "min": 0.0,
+      "p25": 0.6032,
+      "median": 0.8,
+      "mean": 0.7242,
+      "p75": 0.8889,
+      "p95": 0.9756,
+      "p99": 1.0,
+      "max": 1.0
+    },
+    "addr_token_sort_ratio": {
+      "min": 0.0,
+      "p25": 0.7297,
+      "median": 0.8387,
+      "mean": 0.772,
+      "p75": 0.9048,
+      "p95": 0.9885,
+      "p99": 1.0,
+      "max": 1.0
+    },
+    "addr_token_jaccard": {
+      "min": 0.0,
+      "p25": 0.2727,
+      "median": 0.4286,
+      "mean": 0.4637,
+      "p75": 0.6471,
+      "p95": 0.9,
+      "p99": 1.0,
+      "max": 1.0
+    },
+    "addr_numeric_overlap": {
+      "min": 0.0,
+      "p25": 0.6667,
+      "median": 1.0,
+      "mean": 0.8204,
+      "p75": 1.0,
+      "p95": 1.0,
+      "p99": 1.0,
+      "max": 1.0
+    },
+    "addr_both_have_numbers_pct": 83.92
+  }
+}

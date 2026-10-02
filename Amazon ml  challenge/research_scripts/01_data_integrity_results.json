@@ -1,0 +1,165 @@
+[
+  {
+    "file": "student_resource/dataset/train/train_source1.tsv",
+    "label": "Train Source 1",
+    "size_bytes": 210069713,
+    "size_mb": 200.34,
+    "total_lines": 2206822,
+    "data_rows": 2206821,
+    "header": [
+      "entity_id",
+      "business_name",
+      "business_address",
+      "country"
+    ],
+    "delimiter": "\t",
+    "malformed_rows": 0,
+    "sha256": "591af0e1dfeb65cab71ea6ee8cb69df00f92d6ba6fa79e05746c938775d14973",
+    "time_seconds": 2.75
+  },
+  {
+    "file": "student_resource/dataset/train/train_source2.tsv",
+    "label": "Train Source 2",
+    "size_bytes": 489301488,
+    "size_mb": 466.63,
+    "total_lines": 5034617,
+    "data_rows": 5034616,
+    "header": [
+      "entity_id",
+      "business_name",
+      "business_address",
+      "country"
+    ],
+    "delimiter": "\t",
+    "malformed_rows": 0,
+    "sha256": "6336c1a055eec79cf8a6d99fdc8d32a2e4d9dc2662e00963cb35d66b89ed09ed",
+    "time_seconds": 10.49
+  },
+  {
+    "file": "student_resource/dataset/train/train_source3.tsv",
+    "label": "Train Source 3",
+    "size_bytes": 503705637,
+    "size_mb": 480.37,
+    "total_lines": 5285604,
+    "data_rows": 5285603,
+    "header": [
+      "entity_id",
+      "business_name",
+      "business_address",
+      "country"
+    ],
+    "delimiter": "\t",
+    "malformed_rows": 0,
+    "sha256": "67da22f5151898ff3006febd836c1a159e97ae95efa7257a5aff4fda685e58e9",
+    "time_seconds": 10.11
+  },
+  {
+    "file": "student_resource/dataset/train/train_ground_truth.tsv",
+    "label": "Train Ground Truth",
+    "size_bytes": 127015583,
+    "size_mb": 121.13,
+    "total_lines": 2206822,
+    "data_rows": 2206821,
+    "header": [
+      "source1_entity_id",
+      "matched_entity_ids"
+    ],
+    "delimiter": "\t",
+    "malformed_rows": 0,
+    "sha256": "70bc1d8a16c667e0155c2105d0ab2ebe41d7e7a85d8a529e3ca81c6c3a5af037",
+    "time_seconds": 1.94
+  },
+  {
+    "file": "student_resource/dataset/test/test_source1.tsv",
+    "label": "Test Source 1",
+    "size_bytes": 175022086,
+    "size_mb": 166.91,
+    "total_lines": 1732545,
+    "data_rows": 1732544,
+    "header": [
+      "entity_id",
+      "business_name",
+      "business_address",
+      "country"
+    ],
+    "delimiter": "\t",
+    "malformed_rows": 0,
+    "sha256": "3d4a32c54c2ca9c53fd7c2be105bf26f708f94c4d2f88eb370972a195665c2f5",
+    "time_seconds": 2.71
+  },
+  {
+    "file": "student_resource/dataset/test/test_source2.tsv",
+    "label": "Test Source 2",
+    "size_bytes": 509456422,
+    "size_mb": 485.86,
+    "total_lines": 4887274,
+    "data_rows": 4887273,
+    "header": [
+      "entity_id",
+      "business_name",
+      "business_address",
+      "country"
+    ],
+    "delimiter": "\t",
+    "malformed_rows": 0,
+    "sha256": "79d906c7497af2ace70aa277f6e334a652094909de99bd6c57b53420b6a7b2dd",
+    "time_seconds": 10.41
+  },
+  {
+    "file": "student_resource/dataset/test/test_source3.tsv",
+    "label": "Test Source 3",
+    "size_bytes": 506002772,
+    "size_mb": 482.56,
+    "total_lines": 5082317,
+    "data_rows": 5082316,
+    "header": [
+      "entity_id",
+      "business_name",
+      "business_address",
+      "country"
+    ],
+    "delimiter": "\t",
+    "malformed_rows": 0,
+    "sha256": "850942b11d2a4343486ed0834e28bce9f3b385f3fd497fd60ccf4ea3b8bda035",
+    "time_seconds": 10.07
+  },
+  {
+    "file": "student_resource/README.md",
+    "label": "README",
+    "size_bytes": 14130,
+    "size_mb": 0.01,
+    "total_lines": 263,
+    "data_rows": 263,
+    "header": null,
+    "delimiter": null,
+    "malformed_rows": 0,
+    "sha256": "be67cd7d9dbc48a58f93e1f61402360655debac64214115bf9d27d3301939285",
+    "time_seconds": 0.01
+  },
+  {
+    "file": "student_resource/Documentation_template.md",
+    "label": "Doc Template",
+    "size_bytes": 2175,
+    "size_mb": 0.0,
+    "total_lines": 74,
+    "data_rows": 74,
+    "header": null,
+    "delimiter": null,
+    "malformed_rows": 0,
+    "sha256": "599b661af92a8d5c239ba283ee9b2ffed050c0bc86360964430a2f9857e8c599",
+    "time_seconds": 0.02
+  },
+  {
+    "file": "student_resource/utils/validate_submission.py",
+    "label": "Validator Utility",
+    "size_bytes": 13687,
+    "size_mb": 0.01,
+    "total_lines": 349,
+    "data_rows": 349,
+    "header": null,
+    "delimiter": null,
+    "malformed_rows": 0,
+    "sha256": "f96f59934383a15095914f507620c078c474e8f9c60e864b2d051ed173a22dfc",
+    "time_seconds": 0.01
+  }
+]

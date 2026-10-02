@@ -1,0 +1,53 @@
+{
+  "ground_truth_file": "data/raw/train/train_ground_truth.tsv",
+  "total_gt_rows": 2206821,
+  "total_s1_records_in_source1": 2206821,
+  "s1_coverage_complete": true,
+  "s1_missing_from_gt_count": 0,
+  "gt_s1_missing_from_source1_count": 0,
+  "singletons_count": 123247,
+  "singleton_rate": 0.05585,
+  "exact_one_match_count": 119157,
+  "exact_one_match_rate": 0.05399,
+  "multi_matches_count": 1964417,
+  "multi_match_rate": 0.89016,
+  "total_matched_links": 7638365,
+  "total_s2_links": 3693619,
+  "total_s3_links": 3944746,
+  "match_distribution": {
+    "min": 0,
+    "max": 11,
+    "mean": 3.4613,
+    "median": 3,
+    "p75": 5,
+    "p95": 6,
+    "p99": 8
+  },
+  "match_count_histogram": {
+    "0": 123247,
+    "1": 119157,
+    "2": 375212,
+    "3": 530841,
+    "4": 484115,
+    "5": 321957,
+    "6": 164868,
+    "7": 63968,
+    "8": 18680,
+    "9": 4205,
+    "10": 534,
+    "11": 37
+  },
+  "source_breakdown": {
+    "both_s2_s3": 1776047,
+    "s3_only": 164498,
+    "singleton": 123247,
+    "s2_only": 143029
+  },
+  "integrity_checks": {
+    "intra_list_dupes": 0,
+    "self_matches_count": 0,
+    "unknown_prefix_count": 0,
+    "invalid_s2_ids_count": 0,
+    "invalid_s3_ids_count": 0
+  }
+}

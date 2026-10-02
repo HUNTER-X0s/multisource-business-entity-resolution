@@ -1,0 +1,32 @@
+{
+  "s1_train_count": 2206821,
+  "s1_test_count": 1732544,
+  "s1_id_overlap": 0,
+  "s2_id_overlap": 0,
+  "s3_id_overlap": 0,
+  "exact_name_addr_country_overlap_count": 0,
+  "exact_name_addr_country_overlap_pct": 0.0,
+  "exact_name_country_overlap_count": 585158,
+  "exact_name_country_overlap_pct": 33.7745,
+  "test_s1_name_char_profile": {
+    "field": "test_s1_name_sample50k",
+    "total": 50000,
+    "non_ascii_records": 1189,
+    "non_ascii_pct": 2.378,
+    "indic_script_records": 0,
+    "indic_script_pct": 0.0,
+    "accented_latin_records": 1189,
+    "accented_latin_pct": 2.378
+  },
+  "test_s1_addr_char_profile": {
+    "field": "test_s1_addr_sample50k",
+    "total": 50000,
+    "non_ascii_records": 2157,
+    "non_ascii_pct": 4.314,
+    "indic_script_records": 0,
+    "indic_script_pct": 0.0,
+    "accented_latin_records": 2124,
+    "accented_latin_pct": 4.248
+  },
+  "elapsed_seconds": 14.29
+}

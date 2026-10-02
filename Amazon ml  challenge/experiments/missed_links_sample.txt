@@ -1,0 +1,227 @@
+=== SAMPLE OF MISSED TRUE LINKS (EXP-1.3) ===
+
+[1] Pair: (S1-735406964 -> S2-121736043) | Country: India
+   S1 Name:     Krishna Estate Private Limited
+   Target Name: ಕೃಷ್ಣ ಎಸ್ಟೇಟ್ ಪ್ರೈವೇಟ್ ಲಿಮಿಟೆಡ್
+   S1 Addr:     Flat No Td-06 Sowparnika, Anandasompura Gate, Anekal, Bangalore, Karnataka
+   Target Addr: FLAT NO TD-06 SOWPARNIKA, ANEKAL, BANGALORE, Karnataka
+   S1 Sorted:   estate krishna
+   Tgt Sorted:  ಎಸ್ಟೇಟ್ ಕೃಷ್ಣ ಪ್ರೈವೇಟ್ ಲಿಮಿಟೆಡ್
+   S1 Postal:    | Tgt Postal: 
+-----------------------------------------------------------------
+[2] Pair: (S1-735406964 -> S3-870075130) | Country: India
+   S1 Name:     Krishna Estate Private Limited
+   Target Name: ಕೃಷ್ಣ ಎಸ್ಟೇಟ್ ಪ್ರೈವೇಟ್ ಲಿಮಿಟೆಡ್
+   S1 Addr:     Flat No Td-06 Sowparnika, Anandasompura Gate, Anekal, Bangalore, Karnataka
+   Target Addr: Flat No Td-06 Sowparnika, Anandasompura Gate, Bangalore, Bengaluru, KA
+   S1 Sorted:   estate krishna
+   Tgt Sorted:  ಎಸ್ಟೇಟ್ ಕೃಷ್ಣ ಪ್ರೈವೇಟ್ ಲಿಮಿಟೆಡ್
+   S1 Postal:    | Tgt Postal: 
+-----------------------------------------------------------------
+[3] Pair: (S1-6651687 -> S2-859287896) | Country: US
+   S1 Name:     Acosta, Foster and Dudley LLC
+   Target Name: Ac0sta Foster & Dudley LLC Cénter
+   S1 Addr:     406 Lekites Avenue, Bethany Beach, DE
+   Target Addr: 724-A LEKITES AVE, BETHANY BEACH, DE
+   S1 Sorted:   acosta and dudley foster
+   Tgt Sorted:  ac0sta and cénter dudley foster
+   S1 Postal:    | Tgt Postal: 
+-----------------------------------------------------------------
+[4] Pair: (S1-6651687 -> S3-407923875) | Country: US
+   S1 Name:     Acosta, Foster and Dudley LLC
+   Target Name: Acosta, Foster &-Dnly LLC
+   S1 Addr:     406 Lekites Avenue, Bethany Beach, DE
+   Target Addr: 406 Lekites Avenue, Bethany Beach, Delaware
+   S1 Sorted:   acosta and dudley foster
+   Tgt Sorted:  acosta and dnly foster
+   S1 Postal:    | Tgt Postal: 
+-----------------------------------------------------------------
+[5] Pair: (S1-68987555 -> S2-539306476) | Country: US
+   S1 Name:     Beacon Center
+   Target Name: Beacon Services
+   S1 Addr:     450 Ohio Street, Unit CONDO 314, Indianapolis, IN
+   Target Addr: 450 OHIO STREET, INDIANAPOLIS, IN
+   S1 Sorted:   beacon center
+   Tgt Sorted:  beacon services
+   S1 Postal:    | Tgt Postal: 
+-----------------------------------------------------------------
+[6] Pair: (S1-68987555 -> S3-620385748) | Country: US
+   S1 Name:     Beacon Center
+   Target Name: 8eacon Center LLC
+   S1 Addr:     450 Ohio Street, Unit CONDO 314, Indianapolis, IN
+   Target Addr: 00450 Ohio St, Indianapolis, Indiana
+   S1 Sorted:   beacon center
+   Tgt Sorted:  8eacon center
+   S1 Postal:    | Tgt Postal: 00450
+-----------------------------------------------------------------
+[7] Pair: (S1-68987555 -> S3-171213003) | Country: US
+   S1 Name:     Beacon Center
+   Target Name: Beacon Ctenr
+   S1 Addr:     450 Ohio Street, Unit CONDO 314, Indianapolis, IN
+   Target Addr: Unit Condo 314, Indianapolis, Indiana, 00450 Ohio Street
+   S1 Sorted:   beacon center
+   Tgt Sorted:  beacon ctenr
+   S1 Postal:    | Tgt Postal: 00450
+-----------------------------------------------------------------
+[8] Pair: (S1-68987555 -> S3-188634109) | Country: US
+   S1 Name:     Beacon Center
+   Target Name: Beacon Service
+   S1 Addr:     450 Ohio Street, Unit CONDO 314, Indianapolis, IN
+   Target Addr: Ohio Street, # Condo 314, Indianapolis, Indiana
+   S1 Sorted:   beacon center
+   Tgt Sorted:  beacon service
+   S1 Postal:    | Tgt Postal: 
+-----------------------------------------------------------------
+[9] Pair: (S1-68987555 -> S3-150385489) | Country: US
+   S1 Name:     Beacon Center
+   Target Name: Quosyn Formerly Beacon Center
+   S1 Addr:     450 Ohio Street, Unit CONDO 314, Indianapolis, IN
+   Target Addr: 450 Ohio Street, Unit CONDO 314, Indianapolis, IN
+   S1 Sorted:   beacon center
+   Tgt Sorted:  beacon center formerly quosyn
+   S1 Postal:    | Tgt Postal: 
+-----------------------------------------------------------------
+[10] Pair: (S1-580555932 -> S3-849112038) | Country: US
+   S1 Name:     Drayex Computing LLC
+   Target Name: Drayex LLC Center
+   S1 Addr:     258 16, Plymouth, NY
+   Target Addr: 258 16, Plymouth, New York
+   S1 Sorted:   computing drayex
+   Tgt Sorted:  center drayex
+   S1 Postal:    | Tgt Postal: 
+-----------------------------------------------------------------
+[11] Pair: (S1-316137970 -> S2-557059223) | Country: India
+   S1 Name:     Infrastructure Foundation Private Limited
+   Target Name: infrastructurefoundation.com
+   S1 Addr:     F-2/11 G/F Kh No-456, Dayal Pur, Extn, Delhi, North East, Delhi
+   Target Addr: PLOT 833 F-2/11 G/F KH NO-456, DAYAL PUR, EXTN, DELHI, दिल्ली
+   S1 Sorted:   foundation infrastructure
+   Tgt Sorted:  com infrastructurefoundation
+   S1 Postal:    | Tgt Postal: 
+-----------------------------------------------------------------
+[12] Pair: (S1-316137970 -> S3-317171087) | Country: India
+   S1 Name:     Infrastructure Foundation Private Limited
+   Target Name: Dr Infrastructure Private  Foundation Limited
+   S1 Addr:     F-2/11 G/F Kh No-456, Dayal Pur, Extn, Delhi, North East, Delhi
+   Target Addr: DL, F-2/11 G/f Kh No-456, North East, Ghaziabad, Dayal Pur, Extn
+   S1 Sorted:   foundation infrastructure
+   Tgt Sorted:  dr foundation infrastructure private
+   S1 Postal:    | Tgt Postal: 
+-----------------------------------------------------------------
+[13] Pair: (S1-316137970 -> S3-291969073) | Country: India
+   S1 Name:     Infrastructure Foundation Private Limited
+   Target Name: Infrastructure Private Limited Services
+   S1 Addr:     F-2/11 G/F Kh No-456, Dayal Pur, Extn, Delhi, North East, Delhi
+   Target Addr: F-2/11 G/f Kh No-456, Delhi, Ghaziabad, DL
+   S1 Sorted:   foundation infrastructure
+   Tgt Sorted:  infrastructure services
+   S1 Postal:    | Tgt Postal: 
+-----------------------------------------------------------------
+[14] Pair: (S1-21008060 -> S2-630231485) | Country: India
+   S1 Name:     Great Construction Private Limited
+   Target Name: গ্রেট কনস্ট্রাকশন প্রাইভেট লিমিটেড
+   S1 Addr:     Flt-1, Fl-Ground, Bl-87, R R Plot, Anandapur, Kolkata, Kolkata, Howrah, West Bengal
+   Target Addr: DOOR NO 476 FLT-1, FL-GROUND, BL-87, R R PLOT, ANANDAPUR, KOLKATA, HOWRAH, KOLKATA, পশ্চিমবঙ্গ
+   S1 Sorted:   construction great
+   Tgt Sorted:  কনস্ট্রাকশন গ্রেট প্রাইভেট লিমিটেড
+   S1 Postal:    | Tgt Postal: 
+-----------------------------------------------------------------
+[15] Pair: (S1-21008060 -> S2-257556784) | Country: India
+   S1 Name:     Great Construction Private Limited
+   Target Name: GREAT CONSTRUCTION PRIVATE
+   S1 Addr:     Flt-1, Fl-Ground, Bl-87, R R Plot, Anandapur, Kolkata, Kolkata, Howrah, West Bengal
+   Target Addr: DOOR NO 476 FLT-1, FL-GROUND, BL-87, R R PROT, ANANDAPUR, KOLKATA, KOLKATA, West Bengal
+   S1 Sorted:   construction great
+   Tgt Sorted:  construction great private
+   S1 Postal:    | Tgt Postal: 
+-----------------------------------------------------------------
+[16] Pair: (S1-21008060 -> S3-323995108) | Country: India
+   S1 Name:     Great Construction Private Limited
+   Target Name: গ্রেট কনস্ট্রাকশন প্রাইভেট লিমিটেড
+   S1 Addr:     Flt-1, Fl-Ground, Bl-87, R R Plot, Anandapur, Kolkata, Kolkata, Howrah, West Bengal
+   Target Addr: Howrah, WB, Flt-1, Fl-ground, Bl-87, R R Plot, Anandapur, Kolkata, Kolkata
+   S1 Sorted:   construction great
+   Tgt Sorted:  কনস্ট্রাকশন গ্রেট প্রাইভেট লিমিটেড
+   S1 Postal:    | Tgt Postal: 
+-----------------------------------------------------------------
+[17] Pair: (S1-205818735 -> S2-679866066) | Country: US
+   S1 Name:     Vertex Pioneer Inc.
+   Target Name: Vertex Píoneer Inc.
+   S1 Addr:     154 Grecian Gardens Drive, Unit Unit D, Greece, NY
+   Target Addr: 154 GRECIAN GARDENS DRIVE, GREECE, NY
+   S1 Sorted:   pioneer vertex
+   Tgt Sorted:  píoneer vertex
+   S1 Postal:    | Tgt Postal: 
+-----------------------------------------------------------------
+[18] Pair: (S1-205818735 -> S3-310294245) | Country: US
+   S1 Name:     Vertex Pioneer Inc.
+   Target Name: Vertex Pbioneer Inc.
+   S1 Addr:     154 Grecian Gardens Drive, Unit Unit D, Greece, NY
+   Target Addr: 154 Grecian Gardens Drive, # Unit D, Greece, New York
+   S1 Sorted:   pioneer vertex
+   Tgt Sorted:  pbioneer vertex
+   S1 Postal:    | Tgt Postal: 
+-----------------------------------------------------------------
+[19] Pair: (S1-423086894 -> S2-916797856) | Country: US
+   S1 Name:     Mountain Committee VI
+   Target Name: MOUNTAIN CMCMMLTEE VI
+   S1 Addr:     485 100, Unit 33, Wellington, UT
+   Target Addr: 485 100, WELLNGTON, UT
+   S1 Sorted:   committee mountain vi
+   Tgt Sorted:  cmcmmltee mountain vi
+   S1 Postal:    | Tgt Postal: 
+-----------------------------------------------------------------
+[20] Pair: (S1-423086894 -> S2-303787991) | Country: US
+   S1 Name:     Mountain Committee VI
+   Target Name: Mountain Committee
+   S1 Addr:     485 100, Unit 33, Wellington, UT
+   Target Addr: 485 100, WELLNGTON, UT
+   S1 Sorted:   committee mountain vi
+   Tgt Sorted:  committee mountain
+   S1 Postal:    | Tgt Postal: 
+-----------------------------------------------------------------
+[21] Pair: (S1-423086894 -> S3-392692578) | Country: US
+   S1 Name:     Mountain Committee VI
+   Target Name: Mountain Committee
+   S1 Addr:     485 100, Unit 33, Wellington, UT
+   Target Addr: 485- 100, Unit 33, Wellington, Utah
+   S1 Sorted:   committee mountain vi
+   Tgt Sorted:  committee mountain
+   S1 Postal:    | Tgt Postal: 
+-----------------------------------------------------------------
+[22] Pair: (S1-423086894 -> S3-273028275) | Country: US
+   S1 Name:     Mountain Committee VI
+   Target Name: Mountain Committee
+   S1 Addr:     485 100, Unit 33, Wellington, UT
+   Target Addr: 485- 100, Wellington, Utah
+   S1 Sorted:   committee mountain vi
+   Tgt Sorted:  committee mountain
+   S1 Postal:    | Tgt Postal: 
+-----------------------------------------------------------------
+[23] Pair: (S1-5233438 -> S2-667674368) | Country: US
+   S1 Name:     Lancaster County, County Of
+   Target Name: Lancaster County, County Of Society
+   S1 Addr:     705 Belmont Drive, Lancaster County, VA
+   Target Addr: 705 1/2 BELMONT DR, LANCASTER, VA
+   S1 Sorted:   county county lancaster of
+   Tgt Sorted:  county county lancaster of society
+   S1 Postal:    | Tgt Postal: 
+-----------------------------------------------------------------
+[24] Pair: (S1-5233438 -> S3-942720182) | Country: US
+   S1 Name:     Lancaster County, County Of
+   Target Name: Lancaster County, Of Partners
+   S1 Addr:     705 Belmont Drive, Lancaster County, VA
+   Target Addr: 705 Belmont Dirve, Lancaster, Virginia
+   S1 Sorted:   county county lancaster of
+   Tgt Sorted:  county lancaster of partners
+   S1 Postal:    | Tgt Postal: 
+-----------------------------------------------------------------
+[25] Pair: (S1-715287026 -> S2-821270556) | Country: US
+   S1 Name:     Capital Clean Idaho
+   Target Name: Capital Clean
+   S1 Addr:     534 Oceanville Road, Stonington, ME
+   Target Addr: 53 Oceanville Rd, STONINGTON, ME
+   S1 Sorted:   capital clean idaho
+   Tgt Sorted:  capital clean
+   S1 Postal:    | Tgt Postal: 
+-----------------------------------------------------------------
