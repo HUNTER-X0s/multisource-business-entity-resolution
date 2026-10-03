@@ -1,0 +1,6 @@
+{
+  "shard_idx": 6,
+  "n_queries": 200000,
+  "n_matched": 171313,
+  "elapsed_sec": 716.9401528835297
+}
