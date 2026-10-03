@@ -12,8 +12,8 @@
 
 > **Team Name:** Team X  
 > **Institution:** Government College of Engineering, Kalahandi (GCEK)  
-> **Team Members:** Subhankar Swain, Anurag Swain, Pradyumna Kumar Biswal, Jahanabi Dalai  
-> **Official Evaluated Leaderboard Metric:** **`0.80539` Macro $F_{0.5}$** (Evaluated Rank: 4245 / 1,732,544 Test Queries)  
+> **Team Members:** Anurag Swain, Jahanabi Dalai, Subhankar Swain, Pradyumna Kumar Biswal  
+> **Official Evaluated Leaderboard Metric:** **`0.80539` Macro $F_{0.5}$** (Surpassed the 0.80 Benchmark Barrier Across 1,732,544 Test Queries)  
 > **Dataset Scale:** 1,732,544 Source 1 entities resolved against multi-million Source 2 & Source 3 records across the US, India, and France.
 
 ---
@@ -73,14 +73,14 @@ The end-to-end resolution pipeline is organized into three decoupled, high-perfo
 
 ## 2. Quantitative Performance & Progression
 
-| Iteration | Retrieval Channels | Model Architecture | Post-Processing | Macro $F_{0.5}$ | Rank | Key Insight |
+| Iteration | Retrieval Channels | Model Architecture | Post-Processing | Macro $F_{0.5}$ | Benchmark Tier | Key Insight |
 | :--- | :--- | :--- | :--- | :---: | :---: | :--- |
-| **v1 Baseline** | Single-token index | Jaro-Winkler heuristic | Greedy match | `0.65210` | 9200+ | High false positive rate on generic words |
-| **v5 LightGBM** | 5-channel union | Single LightGBM (24 feat) | Flat $\theta = 0.50$ | `0.74820` | 7100+ | Learned weights for brand vs address tokens |
-| **v8 Retrieval** | 7-channel Priority | GPU LightGBM (32 feat) | Flat $\theta = 0.50$ | `0.77840` | 5800+ | Recall ceiling expanded to >97% |
-| **v12 Stacking** | 7-channel Priority | Tri-Model GPU Ensemble | Stratified $\theta$ | `0.79240` | 4900+ | XGB + LGB + CatBoost out-of-fold stacking |
-| **v16 Tuned** | 7-channel Priority | Tri-Model + 44 Features | Tiered ($\theta_1=0.55, \theta_2=0.65$) | `0.79918` | 4400+ | Suppressed noisy secondary false positives |
-| **v21 Champion** | **7-Channel Priority** | **Tri-Model Meta-Ensemble** | **Strict Mutual Exclusivity** | **`0.80539`** | **4245** | **Vetoed 12,594 multi-parent target collisions** |
+| **v1 Baseline** | Single-token index | Jaro-Winkler heuristic | Greedy match | `0.65210` | Heuristic Baseline | High false positive rate on generic words |
+| **v5 LightGBM** | 5-channel union | Single LightGBM (24 feat) | Flat $\theta = 0.50$ | `0.74820` | Monolithic GBDT | Learned weights for brand vs address tokens |
+| **v8 Retrieval** | 7-channel Priority | GPU LightGBM (32 feat) | Flat $\theta = 0.50$ | `0.77840` | High-Recall Stage | Recall ceiling expanded to >97% |
+| **v12 Stacking** | 7-channel Priority | Tri-Model GPU Ensemble | Stratified $\theta$ | `0.79240` | Stacking Ensemble | XGB + LGB + CatBoost out-of-fold stacking |
+| **v16 Tuned** | 7-channel Priority | Tri-Model + 44 Features | Tiered ($\theta_1=0.55, \theta_2=0.65$) | `0.79918` | Calibrated Margins | Suppressed noisy secondary false positives |
+| **v21 Champion** | **7-Channel Priority** | **Tri-Model Meta-Ensemble** | **Strict Mutual Exclusivity** | **`0.80539`** | **★ Production Champion** | **Vetoed 12,594 multi-parent target collisions** |
 
 ---
 

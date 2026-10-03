@@ -2,12 +2,12 @@
 
 **Team Name:** Team X  
 **Team Members:**  
-- **Subhankar Swain** (Government College of Engineering, Kalahandi)  
-- **Anurag Swain** (Government College of Engineering, Kalahandi)  
+- **Anurag Swain** (Government College of Engineering, Kalahandi)
+- **Jahanabi Dalai** (Government College of Engineering, Kalahandi)
+- **Subhankar Swain** (Government College of Engineering, Kalahandi)
 - **Pradyumna Kumar Biswal** (Government College of Engineering, Kalahandi)  
-- **Jahanabi Dalai** (Government College of Engineering, Kalahandi)  
 **Submission Date:** September 27, 2026  
-**Final Leaderboard Macro $F_{0.5}$ Score:** **`0.80539`** (Evaluated Rank: 4245 / 1,732,544 Test Entities)
+**Final Leaderboard Macro $F_{0.5}$ Score:** **`0.80539`** (Surpassed the 0.80 Benchmark Barrier Across 1,732,544 Test Entities)
 
 ---
 
@@ -134,4 +134,5 @@ The complete, end-to-end pipeline is fully self-contained, reproducible, and com
 *Signed by:*  
 **Team X — Subhankar Swain, Anurag Swain, Pradyumna Kumar Biswal, Jahanabi Dalai**  
 *Government College of Engineering, Kalahandi*
+
 
